@@ -82,8 +82,8 @@ flowchart LR
 
 | Project | Version | Date | Notes |
 |:---|---:|---:|:---|
+| [league_profile_tool](https://github.com/L9Lenny/league_profile_tool/releases/tag/v1.11.0) | v1.11.0 | 2026-08-07 | `League Profile Tool v1.11.0` |
 | [caddy-analyzer](https://github.com/L9Lenny/caddy-analyzer/releases/tag/v0.3.0) | v0.3.0 | 2026-08-06 | `v0.3.0` |
-| [league_profile_tool](https://github.com/L9Lenny/league_profile_tool/releases/tag/v1.10.2) | v1.10.2 | 2026-07-30 | `League Profile Tool v1.10.2` |
 | [Spotify-Playlist-Reader](https://github.com/L9Lenny/Spotify-Playlist-Reader/releases/tag/1.3) | 1.3 | 2024-09-24 | `1.3` |
 
 <!-- DEPLOY_JOURNAL_END -->
