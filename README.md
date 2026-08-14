@@ -1,5 +1,5 @@
 
-<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=L9Lenny.L9Lenny&"  />
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=lenny-ts.lenny-ts&"  />
 
 <h1 align="center">
     <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;I'm+Lenny;" />
@@ -82,9 +82,9 @@ flowchart LR
 
 | Project | Version | Date | Notes |
 |:---|---:|---:|:---|
-| [league_profile_tool](https://github.com/L9Lenny/league_profile_tool/releases/tag/v1.12.0) | v1.12.0 | 2026-08-10 | `League Profile Tool v1.12.0` |
-| [caddy-analyzer](https://github.com/L9Lenny/caddy-analyzer/releases/tag/v0.3.0) | v0.3.0 | 2026-08-06 | `v0.3.0` |
-| [Spotify-Playlist-Reader](https://github.com/L9Lenny/Spotify-Playlist-Reader/releases/tag/1.3) | 1.3 | 2024-09-24 | `1.3` |
+| [league_profile_tool](https://github.com/lenny-ts/league_profile_tool/releases/tag/v1.12.0) | v1.12.0 | 2026-08-10 | `League Profile Tool v1.12.0` |
+| [caddy-analyzer](https://github.com/lenny-ts/caddy-analyzer/releases/tag/v0.3.0) | v0.3.0 | 2026-08-06 | `v0.3.0` |
+| [Spotify-Playlist-Reader](https://github.com/lenny-ts/Spotify-Playlist-Reader/releases/tag/1.3) | 1.3 | 2024-09-24 | `1.3` |
 
 <!-- DEPLOY_JOURNAL_END -->
 
@@ -124,7 +124,7 @@ flowchart LR
 <div align="center">
   <h2>🐍 My Contributions 🐍</h2>
   <br>
-  <img alt="snake eating my contributions" src="https://github.com/L9Lenny/L9Lenny/blob/output/github-contribution-grid-snake.svg" />
+  <img alt="snake eating my contributions" src="https://github.com/lenny-ts/lenny-ts/blob/output/github-contribution-grid-snake.svg" />
   
   <br/><br/><br/>
 </div>
@@ -137,12 +137,12 @@ flowchart LR
 <div align="center">
   <table>
     <tr>
-      <td><img src="https://github-readme-stats-eight-theta.vercel.app/api?username=L9Lenny&theme=react" /></td>
-      <td><img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs?username=L9Lenny&layout=compact&theme=react" /></td>
+      <td><img src="https://github-readme-stats-eight-theta.vercel.app/api?username=lenny-ts&theme=react" /></td>
+      <td><img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs?username=lenny-ts&layout=compact&theme=react" /></td>
     </tr>
     <tr>
-      <td><img src="https://github-readme-streak-stats.herokuapp.com/?user=L9Lenny&theme=react" /></td>
-      <td><img src="https://github-readme-stats-eight-theta.vercel.app/api?username=L9Lenny&theme=react&show=contribs,prs,issues" /></td>
+      <td><img src="https://github-readme-streak-stats.herokuapp.com/?user=lenny-ts&theme=react" /></td>
+      <td><img src="https://github-readme-stats-eight-theta.vercel.app/api?username=lenny-ts&theme=react&show=contribs,prs,issues" /></td>
     </tr>
   </table>
 </div>
