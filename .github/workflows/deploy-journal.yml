@@ -22,7 +22,7 @@ jobs:
               headers["Authorization"] = f"Bearer {GITHUB_TOKEN}"
 
           req = urllib.request.Request(
-              "https://api.github.com/users/L9Lenny/repos?per_page=100&sort=pushed",
+              "https://api.github.com/users/lenny-ts/repos?per_page=100&sort=pushed",
               headers=headers
           )
           repos = json.loads(urllib.request.urlopen(req).read())
