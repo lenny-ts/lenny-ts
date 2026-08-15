@@ -202,7 +202,3 @@ flowchart LR
 </div>
 
 <br />
-
-<p align="center">
-  <i>⚡ Always building, always learning, always vibing.</i>
-</p>
