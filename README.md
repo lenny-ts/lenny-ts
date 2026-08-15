@@ -62,23 +62,6 @@ def lenny():
 
 <hr />
 
-## 🔄 DevLife Pipeline
-
-```mermaid
-flowchart LR
-    A[💡 Idea] --> B[💻 Code]
-    B --> C{🐛 Bug?}
-    C -->|Yes| D[😡 Panic]
-    D --> B
-    C -->|No| E[🚀 Deploy]
-    E --> F[💨 Relax]
-    F --> A
-```
-
-<br />
-
-<hr />
-
 ## ⚒️ Languages · Frameworks · Tools
 
 ### 🌐 Languages
