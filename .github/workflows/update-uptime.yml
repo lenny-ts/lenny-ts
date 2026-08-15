@@ -1,0 +1,78 @@
+name: Update Terminal Uptime
+
+on:
+  schedule:
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-uptime:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Generate real uptime
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 << 'PYEOF'
+          import json, urllib.request, os, datetime
+
+          GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
+          headers = {"Accept": "application/vnd.github.v3+json"}
+          if GITHUB_TOKEN:
+              headers["Authorization"] = f"Bearer {GITHUB_TOKEN}"
+
+          req = urllib.request.Request(
+              "https://api.github.com/users/lenny-ts",
+              headers=headers
+          )
+          user = json.loads(urllib.request.urlopen(req).read())
+
+          created = datetime.date.fromisoformat(user["created_at"][:10])
+          now = datetime.date.today()
+          days = (now - created).days
+          years, rem = divmod(days, 365)
+          months, day = divmod(rem, 30)
+
+          repos = user["public_repos"]
+          followers = user["followers"]
+
+          rep_req = urllib.request.Request(
+              "https://api.github.com/users/lenny-ts/repos?per_page=100&sort=pushed",
+              headers=headers
+          )
+          star_total = sum(r["stargazers_count"] for r in json.loads(urllib.request.urlopen(rep_req).read()))
+          stars = f"{star_total/1000:.1f}k" if star_total >= 1000 else str(star_total)
+
+          uptime = f"up {years}y {months}m {day}d, load average: {repos} repos, {stars} stars, 1 joint 💨"
+
+          with open("assets/terminal.svg") as f:
+              svg = f.read()
+
+          start = "<!-- UPTIME_START -->"
+          end = "<!-- UPTIME_END -->"
+
+          if start in svg and end in svg:
+              before = svg.split(start)[0]
+              after = svg.split(end)[1]
+              new_svg = (before + start
+                         + '<text x="16" y="425" fill="#7ee787" class="ln l17" xml:space="preserve">'
+                         + uptime + "</text>" + end + after)
+              if new_svg != svg:
+                  with open("assets/terminal.svg", "w") as f:
+                      f.write(new_svg)
+                  print("Uptime updated:", uptime)
+              else:
+                  print("No change")
+          else:
+              print("Markers not found")
+          PYEOF
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add assets/terminal.svg
+          git diff --staged --quiet || git commit -m "chore: update real uptime [skip ci]"
+          git push
