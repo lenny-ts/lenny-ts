@@ -27,6 +27,22 @@
 
 <hr />
 
+## 📌 Featured Repos
+
+<div align="center">
+
+| Repo | Description | Stack |
+|:---|:---|:---:|
+| [**league_profile_tool**](https://github.com/lenny-ts/league_profile_tool) | Hextech-inspired tool for League of Legends profile customization | TypeScript |
+| [**caddy-analyzer**](https://github.com/lenny-ts/caddy-analyzer) | Fast, zero-dependency access log analyzer with security threat intelligence | Go |
+| [**Spotify-Playlist-Reader**](https://github.com/lenny-ts/Spotify-Playlist-Reader) | Analyze your Spotify playlists | Java |
+
+</div>
+
+<br />
+
+<hr />
+
 ## 🧑‍💻 About Me
 
 <div align="center">
