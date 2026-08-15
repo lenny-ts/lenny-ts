@@ -33,12 +33,12 @@
   <table cellspacing="0" cellpadding="0" border="0">
     <tbody>
       <tr>
-        <td><a href="https://github.com/lenny-ts/league_profile_tool"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/7e49dc4d21b43f82bb6e512e2bbc3d7ff714cdaa/assets/repos/league_profile_tool.png" alt="league_profile_tool" width="440" height="165" style="width:440px;height:165px" /></a></td>
-        <td><a href="https://github.com/lenny-ts/caddy-analyzer"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/7e49dc4d21b43f82bb6e512e2bbc3d7ff714cdaa/assets/repos/caddy-analyzer.png" alt="caddy-analyzer" width="440" height="165" style="width:440px;height:165px" /></a></td>
+        <td><a href="https://github.com/lenny-ts/league_profile_tool"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/league_profile_tool.png?v=1" alt="league_profile_tool" width="440" height="165" style="width:440px;height:165px" /></a></td>
+        <td><a href="https://github.com/lenny-ts/caddy-analyzer"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/caddy-analyzer.png?v=1" alt="caddy-analyzer" width="440" height="165" style="width:440px;height:165px" /></a></td>
       </tr>
       <tr>
-        <td><a href="https://github.com/lenny-ts/tdl"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/7e49dc4d21b43f82bb6e512e2bbc3d7ff714cdaa/assets/repos/tdl.png" alt="tdl" width="440" height="165" style="width:440px;height:165px" /></a></td>
-        <td><a href="https://github.com/lenny-ts/Spotify-Playlist-Reader"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/7e49dc4d21b43f82bb6e512e2bbc3d7ff714cdaa/assets/repos/Spotify-Playlist-Reader.png" alt="Spotify-Playlist-Reader" width="440" height="165" style="width:440px;height:165px" /></a></td>
+        <td><a href="https://github.com/lenny-ts/tdl"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/tdl.png?v=1" alt="tdl" width="440" height="165" style="width:440px;height:165px" /></a></td>
+        <td><a href="https://github.com/lenny-ts/Spotify-Playlist-Reader"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/Spotify-Playlist-Reader.png?v=1" alt="Spotify-Playlist-Reader" width="440" height="165" style="width:440px;height:165px" /></a></td>
       </tr>
     </tbody>
   </table>
