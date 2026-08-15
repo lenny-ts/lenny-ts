@@ -174,13 +174,18 @@ flowchart LR
 ## ⚡ GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=lenny-ts&theme=react&show_icons=true&include_all_commits=true" />
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs?username=lenny-ts&layout=compact&theme=react" />
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com/?user=lenny-ts&theme=react" />
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=lenny-ts&theme=react&show=contribs,prs,issues" />
+  <table>
+    <tr>
+      <td>
+        <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=lenny-ts&theme=react&show_icons=true&include_all_commits=true" />
+        <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs?username=lenny-ts&layout=compact&theme=react" />
+      </td>
+      <td>
+        <img src="https://streak-stats.demolab.com/?user=lenny-ts&theme=react" />
+        <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=lenny-ts&theme=react&show=contribs,prs,issues" />
+      </td>
+    </tr>
+  </table>
 </div>
 
 <div align="center">
