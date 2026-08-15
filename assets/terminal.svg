@@ -7,10 +7,10 @@
 .p6{animation:p6 10s linear infinite}@keyframes p6{0%{opacity:0}45.99%{opacity:0}46%{opacity:1}100%{opacity:1}}
 .p12{animation:p12 10s linear infinite}@keyframes p12{0%{opacity:0}71.99%{opacity:0}72%{opacity:1}100%{opacity:1}}
 .p15{animation:p15 10s linear infinite}@keyframes p15{0%{opacity:0}88.99%{opacity:0}89%{opacity:1}100%{opacity:1}}
-.t0{animation:t0 10s linear infinite}@keyframes t0{0%{width:0}16%{width:50.4px}100%{width:50.4px}}
-.t1{animation:t1 10s linear infinite}@keyframes t1{0%{width:0}24%{width:0}38%{width:117.6px}100%{width:117.6px}}
-.t2{animation:t2 10s linear infinite}@keyframes t2{0%{width:0}46%{width:0}60%{width:67.2px}100%{width:67.2px}}
-.t3{animation:t3 10s linear infinite}@keyframes t3{0%{width:0}72%{width:0}84%{width:109.2px}100%{width:109.2px}}
+.t0{animation:t0 10s linear infinite}@keyframes t0{0%{width:0}16%{width:62.4px}100%{width:62.4px}}
+.t1{animation:t1 10s linear infinite}@keyframes t1{0%{width:0}24%{width:0}38%{width:129.6px}100%{width:129.6px}}
+.t2{animation:t2 10s linear infinite}@keyframes t2{0%{width:0}46%{width:0}60%{width:79.2px}100%{width:79.2px}}
+.t3{animation:t3 10s linear infinite}@keyframes t3{0%{width:0}72%{width:0}84%{width:121.2px}100%{width:121.2px}}
 .l1{animation:l1 10s linear infinite}@keyframes l1{0%{opacity:0}17.99%{opacity:0}18%{opacity:1}100%{opacity:1}}
 .l4{animation:l4 10s linear infinite}@keyframes l4{0%{opacity:0}39.99%{opacity:0}40%{opacity:1}100%{opacity:1}}
 .l7{animation:l7 10s linear infinite}@keyframes l7{0%{opacity:0}61.99%{opacity:0}62%{opacity:1}100%{opacity:1}}
