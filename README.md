@@ -32,29 +32,7 @@
 ## 🧑‍💻 About Me
 
 <div align="center">
-  <svg viewBox="0 0 760 370" width="760" height="370" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="About me terminal">
-    <rect width="760" height="370" rx="10" fill="#0c0c0c" />
-    <rect width="760" height="32" rx="10" fill="#202020" />
-    <rect y="24" width="760" height="8" fill="#202020" />
-    <circle cx="20" cy="16" r="6" fill="#ff5f56" />
-    <circle cx="38" cy="16" r="6" fill="#ffbd2e" />
-    <circle cx="56" cy="16" r="6" fill="#27c93f" />
-    <text x="380" y="21" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" fill="#9a9a9a">lenny@devbox: ~</text>
-    <g font-family="ui-monospace, 'Cascadia Code', Menlo, Consolas, monospace" font-size="15">
-      <text x="18" y="52"><tspan fill="#4af626">lenny@devbox:~$</tspan><tspan fill="#e6edf3"> whoami</tspan></text>
-      <text x="18" y="72" fill="#7ee787">lenny — passionate software developer from Italy 🇮🇹</text>
-      <text x="18" y="112"><tspan fill="#4af626">lenny@devbox:~$</tspan><tspan fill="#e6edf3"> cat skills.txt</tspan></text>
-      <text x="18" y="132" fill="#7ee787">python · go · typescript · java · c</text>
-      <text x="18" y="172"><tspan fill="#4af626">lenny@devbox:~$</tspan><tspan fill="#e6edf3"> ./status</tspan></text>
-      <text x="18" y="192" fill="#7ee787">✨ creating bugs since 2022</text>
-      <text x="18" y="212" fill="#7ee787">🔭 working on: a lot of things</text>
-      <text x="18" y="232" fill="#7ee787">🌱 learning: everything 🤓</text>
-      <text x="18" y="252" fill="#7ee787">🔒 most interesting projects: private</text>
-      <text x="18" y="292"><tspan fill="#4af626">lenny@devbox:~$</tspan><tspan fill="#e6edf3"> echo $CONTACT</tspan></text>
-      <text x="18" y="312" fill="#7ee787">discord · instagram</text>
-      <text x="18" y="352"><tspan fill="#4af626">lenny@devbox:~$</tspan><tspan fill="#e6edf3"> </tspan><tspan fill="#4af626">█</tspan></text>
-    </g>
-  </svg>
+  <img src="assets/terminal.svg" alt="Animated terminal demo" width="600" />
 </div>
 
 <div align="center">
