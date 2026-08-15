@@ -31,32 +31,24 @@
 
 ## 🧑‍💻 About Me
 
-<div align="center">
-  <table>
-    <tbody>
-      <tr>
-        <td>✨</td>
-        <td>Creating bugs since <b>2022</b></td>
-      </tr>
-      <tr>
-        <td>🔭</td>
-        <td>Currently working on <b>a lot of things</b> 👨‍💻</td>
-      </tr>
-      <tr>
-        <td>🌱</td>
-        <td>Currently learning <b>everything</b> 🤓</td>
-      </tr>
-      <tr>
-        <td>🔒</td>
-        <td>The most interesting projects are <b>private</b></td>
-      </tr>
-      <tr>
-        <td>📫</td>
-        <td>Reach me on Discord or Instagram</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+```bash
+lenny@devbox:~$ whoami
+lenny — passionate software developer from Italy 🇮🇹
+
+lenny@devbox:~$ cat skills.txt
+python · go · typescript · java · c
+
+lenny@devbox:~$ ./status
+✨ creating bugs since 2022
+🔭 working on: a lot of things
+🌱 learning: everything 🤓
+🔒 most interesting projects: private
+
+lenny@devbox:~$ echo $CONTACT
+discord · instagram
+
+lenny@devbox:~$ █
+```
 
 <div align="center">
   <a href="https://discordapp.com/users/1001158048276033536" target="_blank">
