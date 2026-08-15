@@ -1,5 +1,6 @@
 <svg width="480" height="180" viewBox="0 0 480 180" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" role="img" aria-label="league_profile_tool">
-  <rect width="480" height="180" rx="8" fill="#1a1b27" stroke="#2f3352"/>
+  <rect width="480" height="180" fill="#1a1b27"/>
+  <rect width="480" height="180" rx="8" fill="none" stroke="#2f3352"/>
   <text x="20" y="32" font-size="16" font-weight="700" fill="#e1e4e8" xml:space="preserve">league_profile_tool</text>
   <text x="20" y="62" font-size="13" fill="#9da7d3" xml:space="preserve">Hextech-inspired tool for League of Legends profile</text>
   <text x="20" y="82" font-size="13" fill="#9da7d3" xml:space="preserve">customization. Built with Tauri v2 &amp; React. Features real-time LCU</text>
