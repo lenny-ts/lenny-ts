@@ -30,18 +30,11 @@
 ## 📌 Pinned Repos
 
 <div align="center">
-  <table cellspacing="0" cellpadding="0" border="0">
-    <tbody>
-      <tr>
-        <td><a href="https://github.com/lenny-ts/league_profile_tool"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/league_profile_tool.png?v=1" alt="league_profile_tool" width="440" height="165" style="width:440px;height:165px" /></a></td>
-        <td><a href="https://github.com/lenny-ts/caddy-analyzer"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/caddy-analyzer.png?v=1" alt="caddy-analyzer" width="440" height="165" style="width:440px;height:165px" /></a></td>
-      </tr>
-      <tr>
-        <td><a href="https://github.com/lenny-ts/tdl"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/tdl.png?v=1" alt="tdl" width="440" height="165" style="width:440px;height:165px" /></a></td>
-        <td><a href="https://github.com/lenny-ts/Spotify-Playlist-Reader"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/Spotify-Playlist-Reader.png?v=1" alt="Spotify-Playlist-Reader" width="440" height="165" style="width:440px;height:165px" /></a></td>
-      </tr>
-    </tbody>
-  </table>
+  <a href="https://github.com/lenny-ts/league_profile_tool"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/league_profile_tool.png?v=2" alt="league_profile_tool" width="400" /></a>&nbsp;&nbsp;
+  <a href="https://github.com/lenny-ts/caddy-analyzer"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/caddy-analyzer.png?v=2" alt="caddy-analyzer" width="400" /></a>
+  <br /><br />
+  <a href="https://github.com/lenny-ts/tdl"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/tdl.png?v=2" alt="tdl" width="400" /></a>&nbsp;&nbsp;
+  <a href="https://github.com/lenny-ts/Spotify-Playlist-Reader"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/Spotify-Playlist-Reader.png?v=2" alt="Spotify-Playlist-Reader" width="400" /></a>
 </div>
 
 <br />
