@@ -27,7 +27,7 @@
 
 <hr />
 
-## 📌 Featured Repos
+## 📌 Pinned Repos
 
 <div align="center">
   <a href="https://github.com/lenny-ts/league_profile_tool">
@@ -37,6 +37,9 @@
     <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin?username=lenny-ts&repo=caddy-analyzer&theme=vue-dark" alt="caddy-analyzer" />
   </a>
   <br />
+  <a href="https://github.com/lenny-ts/tdl">
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin?username=lenny-ts&repo=tdl&theme=vue-dark" alt="tdl" />
+  </a>
   <a href="https://github.com/lenny-ts/Spotify-Playlist-Reader">
     <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin?username=lenny-ts&repo=Spotify-Playlist-Reader&theme=vue-dark" alt="Spotify-Playlist-Reader" />
   </a>
