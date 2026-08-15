@@ -30,11 +30,11 @@
 ## 📌 Pinned Repos
 
 <div align="center">
-  <a href="https://github.com/lenny-ts/league_profile_tool"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/league_profile_tool.png?v=3" alt="league_profile_tool" width="400" /></a>&nbsp;&nbsp;
-  <a href="https://github.com/lenny-ts/caddy-analyzer"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/caddy-analyzer.png?v=3" alt="caddy-analyzer" width="400" /></a>
+  <a href="https://github.com/lenny-ts/league_profile_tool"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/league_profile_tool.png?v=4" alt="league_profile_tool" width="400" /></a>&nbsp;&nbsp;
+  <a href="https://github.com/lenny-ts/caddy-analyzer"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/caddy-analyzer.png?v=4" alt="caddy-analyzer" width="400" /></a>
   <br /><br />
-  <a href="https://github.com/lenny-ts/tdl"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/tdl.png?v=3" alt="tdl" width="400" /></a>&nbsp;&nbsp;
-  <a href="https://github.com/lenny-ts/Spotify-Playlist-Reader"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/Spotify-Playlist-Reader.png?v=3" alt="Spotify-Playlist-Reader" width="400" /></a>
+  <a href="https://github.com/lenny-ts/tdl"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/tdl.png?v=4" alt="tdl" width="400" /></a>&nbsp;&nbsp;
+  <a href="https://github.com/lenny-ts/Spotify-Playlist-Reader"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/Spotify-Playlist-Reader.png?v=4" alt="Spotify-Playlist-Reader" width="400" /></a>
 </div>
 
 <br />
