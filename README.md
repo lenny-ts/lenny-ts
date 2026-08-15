@@ -30,13 +30,16 @@
 ## 📌 Featured Repos
 
 <div align="center">
-
-| Repo | Description | Stack |
-|:---|:---|:---:|
-| [**league_profile_tool**](https://github.com/lenny-ts/league_profile_tool) | Hextech-inspired tool for League of Legends profile customization | TypeScript |
-| [**caddy-analyzer**](https://github.com/lenny-ts/caddy-analyzer) | Fast, zero-dependency access log analyzer with security threat intelligence | Go |
-| [**Spotify-Playlist-Reader**](https://github.com/lenny-ts/Spotify-Playlist-Reader) | Analyze your Spotify playlists | Java |
-
+  <a href="https://github.com/lenny-ts/league_profile_tool">
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin?username=lenny-ts&repo=league_profile_tool&theme=vue-dark" alt="league_profile_tool" />
+  </a>
+  <a href="https://github.com/lenny-ts/caddy-analyzer">
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin?username=lenny-ts&repo=caddy-analyzer&theme=vue-dark" alt="caddy-analyzer" />
+  </a>
+  <br />
+  <a href="https://github.com/lenny-ts/Spotify-Playlist-Reader">
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin?username=lenny-ts&repo=Spotify-Playlist-Reader&theme=vue-dark" alt="Spotify-Playlist-Reader" />
+  </a>
 </div>
 
 <br />
