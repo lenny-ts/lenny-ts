@@ -2,23 +2,23 @@
 <title>lenny@devbox: ~</title>
 <style>
 .ln{opacity:0}
-.p0{animation:p0 22s linear infinite}@keyframes p0{0%{opacity:1}100%{opacity:1}}
-.p3{animation:p3 22s linear infinite}@keyframes p3{0%{opacity:0}21.99%{opacity:0}22%{opacity:1}100%{opacity:1}}
-.p6{animation:p6 22s linear infinite}@keyframes p6{0%{opacity:0}41.99%{opacity:0}42%{opacity:1}100%{opacity:1}}
-.p12{animation:p12 22s linear infinite}@keyframes p12{0%{opacity:0}65.99%{opacity:0}66%{opacity:1}100%{opacity:1}}
-.p15{animation:p15 22s linear infinite}@keyframes p15{0%{opacity:0}82.99%{opacity:0}83%{opacity:1}100%{opacity:1}}
-.t0{animation:t0 22s linear infinite}@keyframes t0{0%{width:0}14%{width:50.4px}100%{width:50.4px}}
-.t1{animation:t1 22s linear infinite}@keyframes t1{0%{width:0}22%{width:0}34%{width:117.6px}100%{width:117.6px}}
-.t2{animation:t2 22s linear infinite}@keyframes t2{0%{width:0}42%{width:0}54%{width:67.2px}100%{width:67.2px}}
-.t3{animation:t3 22s linear infinite}@keyframes t3{0%{width:0}66%{width:0}77%{width:109.2px}100%{width:109.2px}}
-.l1{animation:l1 22s linear infinite}@keyframes l1{0%{opacity:0}15.99%{opacity:0}16%{opacity:1}100%{opacity:1}}
-.l4{animation:l4 22s linear infinite}@keyframes l4{0%{opacity:0}35.99%{opacity:0}36%{opacity:1}100%{opacity:1}}
-.l7{animation:l7 22s linear infinite}@keyframes l7{0%{opacity:0}55.99%{opacity:0}56%{opacity:1}100%{opacity:1}}
-.l8{animation:l8 22s linear infinite}@keyframes l8{0%{opacity:0}57.49%{opacity:0}57.5%{opacity:1}100%{opacity:1}}
-.l9{animation:l9 22s linear infinite}@keyframes l9{0%{opacity:0}58.99%{opacity:0}59%{opacity:1}100%{opacity:1}}
-.l10{animation:l10 22s linear infinite}@keyframes l10{0%{opacity:0}60.49%{opacity:0}60.5%{opacity:1}100%{opacity:1}}
-.l13{animation:l13 22s linear infinite}@keyframes l13{0%{opacity:0}78.99%{opacity:0}79%{opacity:1}100%{opacity:1}}
-.blink{animation:blink 22s linear infinite}@keyframes blink{0%{opacity:0}82.99%{opacity:0}83%{opacity:1}84.5%{opacity:0}86%{opacity:1}87.5%{opacity:0}89%{opacity:1}90.5%{opacity:0}92%{opacity:1}93.5%{opacity:0}95%{opacity:1}96.5%{opacity:0}98%{opacity:1}99.5%{opacity:0}100%{opacity:0}}
+.p0{animation:p0 10s linear infinite}@keyframes p0{0%{opacity:1}100%{opacity:1}}
+.p3{animation:p3 10s linear infinite}@keyframes p3{0%{opacity:0}23.99%{opacity:0}24%{opacity:1}100%{opacity:1}}
+.p6{animation:p6 10s linear infinite}@keyframes p6{0%{opacity:0}45.99%{opacity:0}46%{opacity:1}100%{opacity:1}}
+.p12{animation:p12 10s linear infinite}@keyframes p12{0%{opacity:0}71.99%{opacity:0}72%{opacity:1}100%{opacity:1}}
+.p15{animation:p15 10s linear infinite}@keyframes p15{0%{opacity:0}88.99%{opacity:0}89%{opacity:1}100%{opacity:1}}
+.t0{animation:t0 10s linear infinite}@keyframes t0{0%{width:0}16%{width:50.4px}100%{width:50.4px}}
+.t1{animation:t1 10s linear infinite}@keyframes t1{0%{width:0}24%{width:0}38%{width:117.6px}100%{width:117.6px}}
+.t2{animation:t2 10s linear infinite}@keyframes t2{0%{width:0}46%{width:0}60%{width:67.2px}100%{width:67.2px}}
+.t3{animation:t3 10s linear infinite}@keyframes t3{0%{width:0}72%{width:0}84%{width:109.2px}100%{width:109.2px}}
+.l1{animation:l1 10s linear infinite}@keyframes l1{0%{opacity:0}17.99%{opacity:0}18%{opacity:1}100%{opacity:1}}
+.l4{animation:l4 10s linear infinite}@keyframes l4{0%{opacity:0}39.99%{opacity:0}40%{opacity:1}100%{opacity:1}}
+.l7{animation:l7 10s linear infinite}@keyframes l7{0%{opacity:0}61.99%{opacity:0}62%{opacity:1}100%{opacity:1}}
+.l8{animation:l8 10s linear infinite}@keyframes l8{0%{opacity:0}63.49%{opacity:0}63.5%{opacity:1}100%{opacity:1}}
+.l9{animation:l9 10s linear infinite}@keyframes l9{0%{opacity:0}64.99%{opacity:0}65%{opacity:1}100%{opacity:1}}
+.l10{animation:l10 10s linear infinite}@keyframes l10{0%{opacity:0}66.49%{opacity:0}66.5%{opacity:1}100%{opacity:1}}
+.l13{animation:l13 10s linear infinite}@keyframes l13{0%{opacity:0}85.99%{opacity:0}86%{opacity:1}100%{opacity:1}}
+.blink{animation:blink 10s linear infinite}@keyframes blink{0%{opacity:0}88.99%{opacity:0}89%{opacity:1}91%{opacity:0}93%{opacity:1}95%{opacity:0}97%{opacity:1}99%{opacity:0}100%{opacity:0}}
 </style>
 
 <rect x="0.5" y="0.5" width="639" height="439" rx="10" fill="#0c0c0c" stroke="#11111b" stroke-width="1"/>
