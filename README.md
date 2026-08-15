@@ -32,7 +32,7 @@
 ## 🧑‍💻 About Me
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/feature/readme-overhaul/assets/terminal.svg?v=4" alt="Animated terminal demo" width="600" />
+  <img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/feature/readme-overhaul/assets/terminal.svg?v=5" alt="Animated terminal demo" width="600" />
 </div>
 
 <div align="center">
@@ -175,7 +175,7 @@ flowchart LR
 
 <div align="center">
   <h2>💖 Support Me</h2>
-  <a href='https://ko-fi.com/profumato' target='_blank'><img height='64' style='border:0px;height:64px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=4' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+  <a href='https://ko-fi.com/profumato' target='_blank'><img height='64' style='border:0px;height:64px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=5' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 </div>
 
 <br />
