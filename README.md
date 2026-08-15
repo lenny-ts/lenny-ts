@@ -1,28 +1,21 @@
 <div align="center">
-  <style>
-    @keyframes shift {
-      0%   { background-position: 0% 50%; }
-      50%  { background-position: 100% 50%; }
-      100% { background-position: 0% 50%; }
-    }
-    .gradient {
-      background: linear-gradient(270deg, #ff6b6b, #ffd93d, #6bcb77, #4d96ff, #c678dd);
-      background-size: 400% 400%;
-      -webkit-background-clip: text;
-      background-clip: text;
-      -webkit-text-fill-color: transparent;
-      color: transparent;
-      animation: shift 8s ease infinite;
-      font-weight: 800;
-    }
-  </style>
-</div>
-
-<div align="center">
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=30&duration=4000&pause=600&color=6BCB77&center=true&vCenter=true&width=640&height=90&lines=Hi+There!+%F0%9F%91%8B;I+am+Lenny;Passionate+developer+from+Italy+%F0%9F%87%AE%F0%9F%87%B9" alt="Typing SVG" />
 </div>
 
-<h1 align="center">I'm <span class="gradient">Lenny</span> ✨</h1>
+<div align="center">
+  <svg viewBox="0 0 480 90" width="480" height="90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="I'm Lenny">
+    <defs>
+      <linearGradient id="name-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#ff6b6b" />
+        <stop offset="25%" stop-color="#ffd93d" />
+        <stop offset="50%" stop-color="#6bcb77" />
+        <stop offset="75%" stop-color="#4d96ff" />
+        <stop offset="100%" stop-color="#c678dd" />
+      </linearGradient>
+    </defs>
+    <text x="50%" y="55" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="52" font-weight="800" fill="url(#name-grad)">I'm Lenny ✨</text>
+  </svg>
+</div>
 
 <h3 align="center">Code · Learn · Deploy · Repeat</h3>
 
