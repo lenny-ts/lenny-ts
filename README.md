@@ -1,42 +1,84 @@
-
-<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=lenny-ts.lenny-ts&"  />
-
-<h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;I'm+Lenny;" />
-</h1>
-
-<h3 align="center">A passionate software developer from Italy 🇮🇹</h3>
-
-<br/>
+<div align="center">
+  <style>
+    @keyframes shift {
+      0%   { background-position: 0% 50%; }
+      50%  { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    .gradient {
+      background: linear-gradient(270deg, #ff6b6b, #ffd93d, #6bcb77, #4d96ff, #c678dd);
+      background-size: 400% 400%;
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: transparent;
+      animation: shift 8s ease infinite;
+      font-weight: 800;
+    }
+  </style>
+</div>
 
 <div align="center">
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=30&duration=4000&pause=600&color=6BCB77&center=true&vCenter=true&width=640&height=90&lines=Hi+There!+%F0%9F%91%8B;I+am+Lenny;Passionate+developer+from+Italy+%F0%9F%87%AE%F0%9F%87%B9" alt="Typing SVG" />
+</div>
 
- ✨ Creating bugs since **2022**
+<h1 align="center">I'm <span class="gradient">Lenny</span> ✨</h1>
 
- 🔭 I'm currently working on **a lot of things** 👨🏻‍💻
- 
- 🌱  I’m currently learning **everything** 🤓
+<h3 align="center">Code · Learn · Deploy · Repeat</h3>
 
-🔒 **The most interesting projects are private**
+<p align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=lenny-ts.lenny-ts&" alt="Visitors" />
+  <img src="https://img.shields.io/github/followers/lenny-ts?label=Followers&style=for-the-badge&color=6BCB77" alt="Followers" />
+  <img src="https://img.shields.io/github/stars/lenny-ts?affiliations=OWNER&style=for-the-badge&color=4D96FF" alt="Stars" />
+</p>
 
+<br />
 
- 📫 You can reach me here : 
- 
+<hr />
+
+## 🧑‍💻 About Me
+
+<div align="center">
+  <table>
+    <tbody>
+      <tr>
+        <td>✨</td>
+        <td>Creating bugs since <b>2022</b></td>
+      </tr>
+      <tr>
+        <td>🔭</td>
+        <td>Currently working on <b>a lot of things</b> 👨‍💻</td>
+      </tr>
+      <tr>
+        <td>🌱</td>
+        <td>Currently learning <b>everything</b> 🤓</td>
+      </tr>
+      <tr>
+        <td>🔒</td>
+        <td>The most interesting projects are <b>private</b></td>
+      </tr>
+      <tr>
+        <td>📫</td>
+        <td>Reach me on Discord or Instagram</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 <div align="center">
   <a href="https://discordapp.com/users/1001158048276033536" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo"  />
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo" />
   </a>
   <a href="https://www.instagram.com/lenny.ts_" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo"  />
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo" />
   </a>
-  </div>
+</div>
 
-  </div>
+<br />
 
+<hr />
 
-<hr/>
-
-<h3 align="center">🍀 If I were a function...</h3>
+## 🍀 If I were a function...
 
 ```python
 def lenny():
@@ -55,11 +97,11 @@ def lenny():
         learn(random.choice(languages))
 ```
 
-<br/>
+<br />
 
-<hr/>
+<hr />
 
-<h3 align="center">🔄 DevLife Pipeline</h3>
+## 🔄 DevLife Pipeline
 
 ```mermaid
 flowchart LR
@@ -72,11 +114,42 @@ flowchart LR
     F --> A
 ```
 
-<hr/>
+<br />
 
-<h3 align="center">📦 Deploy Journal</h3>
+<hr />
 
-<br/>
+## ⚒️ Languages · Frameworks · Tools
+
+### 🌐 Languages
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,py,c,java,javascript,php,go,ts" />
+</div>
+
+### ⚙️ Frameworks & Libraries
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=django,svelte,fastapi,nodejs,tailwind" />
+</div>
+
+### 🛠️ Tools & IDEs
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=vscode,pycharm,androidstudio,arduino,eclipse,idea,figma,git,gitlab,docker,bash,npm,pnpm,redis,stackoverflow" />
+</div>
+
+### 💾 Databases
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=mysql,redis,sqlite" />
+</div>
+
+### 🖥️ Operating Systems
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=kali,linux,windows,ubuntu" />
+</div>
+
+<br />
+
+<hr />
+
+## 📦 Deploy Journal
 
 <!-- DEPLOY_JOURNAL_START -->
 
@@ -88,71 +161,54 @@ flowchart LR
 
 <!-- DEPLOY_JOURNAL_END -->
 
-<hr/>
+<br />
 
-<h2 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h2>
-<br/>
+<hr />
 
-### 🌐 Languages
-<div align="center">
-    <img src="https://skillicons.dev/icons?i=html,css,py,c,java,javascript,php,go,ts" />
-</div>
-
-### ⚙️ Frameworks & Libraries
-<div align="center">
-    <img src="https://skillicons.dev/icons?i=django,svelte,fastapi,nodejs,tailwind" />
-</div>
-
-### 🛠️ Tools & IDEs
-<div align="center">
-    <img src="https://skillicons.dev/icons?i=vscode,pycharm,androidstudio,arduino,eclipse,idea,figma,git,gitlab,docker,bash,npm,pnpm,redis,stackoverflow" />
-</div>
-
-### 💾 Databases
-<div align="center">
-    <img src="https://skillicons.dev/icons?i=mysql,redis,sqlite" />
-</div>
-
-### 🖥️ Operating Systems
-<div align="center">
-    <img src="https://skillicons.dev/icons?i=kali,linux,windows,ubuntu" />
-</div>
-
-<br/>
-<hr/>
+## 🐍 My Contributions
 
 <div align="center">
-  <h2>🐍 My Contributions 🐍</h2>
-  <br>
-  <img alt="snake eating my contributions" src="https://github.com/lenny-ts/lenny-ts/blob/output/github-contribution-grid-snake.svg" />
-  
-  <br/><br/><br/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lenny-ts/lenny-ts/output/github-contribution-grid-snake-dark.svg" />
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/output/github-contribution-grid-snake.svg" />
+  </picture>
 </div>
 
-<hr/>
+<br />
 
-<h2 align="center">⚡ Stats ⚡</h2>
-<br>
+<hr />
+
+## ⚡ GitHub Stats
 
 <div align="center">
-  <table>
-    <tr>
-      <td><img src="https://github-readme-stats-eight-theta.vercel.app/api?username=lenny-ts&theme=react" /></td>
-      <td><img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs?username=lenny-ts&layout=compact&theme=react" /></td>
-    </tr>
-    <tr>
-      <td><img src="https://github-readme-streak-stats.herokuapp.com/?user=lenny-ts&theme=react" /></td>
-      <td><img src="https://github-readme-stats-eight-theta.vercel.app/api?username=lenny-ts&theme=react&show=contribs,prs,issues" /></td>
-    </tr>
-  </table>
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=lenny-ts&theme=react&show_icons=true&include_all_commits=true" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs?username=lenny-ts&layout=compact&theme=react" />
 </div>
 
-<br/><br/>
-<hr/>
-
-<br/>
 <div align="center">
-<a href='https://ko-fi.com/profumato' target='_blank'><img height='64' style='border:0px;height:64px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+  <img src="https://streak-stats.demolab.com/?user=lenny-ts&theme=react" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=lenny-ts&theme=react&show=contribs,prs,issues" />
 </div>
 
-<br/>
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=lenny-ts&theme=react" alt="Activity graph" />
+</div>
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=lenny-ts&theme=radical&no-frame=true&row=1&column=7" alt="Trophies" />
+</div>
+
+<br />
+
+<hr />
+
+<div align="center">
+  <h2>💖 Support Me</h2>
+  <a href='https://ko-fi.com/profumato' target='_blank'><img height='64' style='border:0px;height:64px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+</div>
+
+<br />
+
+<p align="center">
+  <i>⚡ Always building, always learning, always vibing.</i>
+</p>
