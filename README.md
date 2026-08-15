@@ -30,7 +30,7 @@
 ## 🧑‍💻 About Me
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/feature/readme-overhaul/assets/terminal.svg?v=6" alt="Animated terminal demo" width="600" />
+  <img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/feature/readme-overhaul/assets/terminal.svg?v=7" alt="Animated terminal demo" width="600" />
 </div>
 
 <br />
@@ -97,7 +97,7 @@
 
 <div align="center">
   <h2>💖 Support Me</h2>
-  <a href='https://ko-fi.com/profumato' target='_blank'><img height='64' style='border:0px;height:64px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+  <a href='https://ko-fi.com/profumato' target='_blank'><img height='64' style='border:0px;height:64px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=7' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 </div>
 
 <div align="center">
