@@ -6,18 +6,16 @@
   <svg viewBox="0 0 480 90" width="480" height="90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="I'm Lenny">
     <defs>
       <linearGradient id="name-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#ff6b6b" />
-        <stop offset="25%" stop-color="#ffd93d" />
-        <stop offset="50%" stop-color="#6bcb77" />
-        <stop offset="75%" stop-color="#4d96ff" />
-        <stop offset="100%" stop-color="#c678dd" />
+        <stop offset="0%" stop-color="#b8f2c6" />
+        <stop offset="25%" stop-color="#7ee787" />
+        <stop offset="50%" stop-color="#4af626" />
+        <stop offset="75%" stop-color="#2ea043" />
+        <stop offset="100%" stop-color="#0f8a4d" />
       </linearGradient>
     </defs>
     <text x="50%" y="55" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="52" font-weight="800" fill="url(#name-grad)">I'm Lenny ✨</text>
   </svg>
 </div>
-
-<h3 align="center">Code · Learn · Deploy · Repeat</h3>
 
 <p align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=lenny-ts.lenny-ts&" alt="Visitors" />
@@ -78,31 +76,14 @@ def lenny():
 
 <hr />
 
-## ⚒️ Languages · Frameworks · Tools
+## ⚒️ Tech Stack
 
-### 🌐 Languages
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,py,c,java,javascript,php,go,ts" />
-</div>
-
-### ⚙️ Frameworks & Libraries
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=django,svelte,fastapi,nodejs,tailwind" />
-</div>
-
-### 🛠️ Tools & IDEs
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=vscode,pycharm,androidstudio,arduino,eclipse,idea,figma,git,gitlab,docker,bash,npm,pnpm,redis,stackoverflow" />
-</div>
-
-### 💾 Databases
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=mysql,redis,sqlite" />
-</div>
-
-### 🖥️ Operating Systems
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=kali,linux,windows,ubuntu" />
+  <img src="https://skillicons.dev/icons?i=html,css,py,c,java,javascript,php,go,ts,django,svelte,fastapi,nodejs,tailwind" />
+  <br />
+  <img src="https://skillicons.dev/icons?i=vscode,pycharm,androidstudio,arduino,eclipse,idea,figma,git,gitlab,docker,bash,npm,pnpm" />
+  <br />
+  <img src="https://skillicons.dev/icons?i=mysql,redis,sqlite,kali,linux,windows,ubuntu" />
 </div>
 
 <br />
@@ -125,22 +106,12 @@ def lenny():
 ## ⚡ GitHub Stats
 
 <div align="center">
-  <table>
-    <tr>
-      <td>
-        <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=lenny-ts&theme=react&show_icons=true&include_all_commits=true" />
-        <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs?username=lenny-ts&layout=compact&theme=react" />
-      </td>
-      <td>
-        <img src="https://streak-stats.demolab.com/?user=lenny-ts&theme=react" />
-        <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=lenny-ts&theme=react&show=contribs,prs,issues" />
-      </td>
-    </tr>
-  </table>
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=lenny-ts&theme=vue-dark&show_icons=true&include_all_commits=true" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs?username=lenny-ts&layout=compact&theme=vue-dark" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=lenny-ts&theme=react" alt="Activity graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=lenny-ts&theme=merko" alt="Activity graph" />
 </div>
 
 <br />
