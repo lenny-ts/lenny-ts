@@ -21,8 +21,8 @@
 
 <p align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=lenny-ts.lenny-ts&" alt="Visitors" />
-  <img src="https://img.shields.io/github/followers/lenny-ts?label=Followers&style=for-the-badge&color=6BCB77" alt="Followers" />
-  <img src="https://img.shields.io/github/stars/lenny-ts?affiliations=OWNER&style=for-the-badge&color=4D96FF" alt="Stars" />
+  <img src="https://img.shields.io/github/followers/lenny-ts?label=Followers&style=flat-square&color=6BCB77" alt="Followers" />
+  <img src="https://img.shields.io/github/stars/lenny-ts?affiliations=OWNER&style=flat-square&color=4D96FF" alt="Stars" />
 </p>
 
 <br />
@@ -185,10 +185,6 @@ flowchart LR
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=lenny-ts&theme=react" alt="Activity graph" />
-</div>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=lenny-ts&theme=radical&no-frame=true&row=1&column=7" alt="Trophies" />
 </div>
 
 <br />
