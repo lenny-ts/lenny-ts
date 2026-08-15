@@ -32,12 +32,12 @@
 <div align="center">
   <table>
     <tr>
-      <td><a href="https://github.com/lenny-ts/league_profile_tool"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/feature/featured-repos/assets/repos/league_profile_tool.svg?v=4" alt="league_profile_tool" width="440" height="165" /></a></td>
-      <td><a href="https://github.com/lenny-ts/caddy-analyzer"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/feature/featured-repos/assets/repos/caddy-analyzer.svg?v=4" alt="caddy-analyzer" width="440" height="165" /></a></td>
+      <td><a href="https://github.com/lenny-ts/league_profile_tool"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/849a1cca3a02a5ed6e16e6a2645d6294a43e7fd6/assets/repos/league_profile_tool.svg" alt="league_profile_tool" width="440" height="165" /></a></td>
+      <td><a href="https://github.com/lenny-ts/caddy-analyzer"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/849a1cca3a02a5ed6e16e6a2645d6294a43e7fd6/assets/repos/caddy-analyzer.svg" alt="caddy-analyzer" width="440" height="165" /></a></td>
     </tr>
     <tr>
-      <td><a href="https://github.com/lenny-ts/tdl"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/feature/featured-repos/assets/repos/tdl.svg?v=4" alt="tdl" width="440" height="165" /></a></td>
-      <td><a href="https://github.com/lenny-ts/Spotify-Playlist-Reader"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/feature/featured-repos/assets/repos/Spotify-Playlist-Reader.svg?v=4" alt="Spotify-Playlist-Reader" width="440" height="165" /></a></td>
+      <td><a href="https://github.com/lenny-ts/tdl"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/849a1cca3a02a5ed6e16e6a2645d6294a43e7fd6/assets/repos/tdl.svg" alt="tdl" width="440" height="165" /></a></td>
+      <td><a href="https://github.com/lenny-ts/Spotify-Playlist-Reader"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/849a1cca3a02a5ed6e16e6a2645d6294a43e7fd6/assets/repos/Spotify-Playlist-Reader.svg" alt="Spotify-Playlist-Reader" width="440" height="165" /></a></td>
     </tr>
   </table>
 </div>
