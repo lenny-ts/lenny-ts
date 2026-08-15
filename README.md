@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=30&duration=4000&pause=600&color=6BCB77&center=true&vCenter=true&width=640&height=90&lines=Hi+There!+%F0%9F%91%8B;I+am+Lenny;Passionate+developer+from+Italy+%F0%9F%87%AE%F0%9F%87%B9" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=30&duration=4000&pause=600&color=6BCB77&center=true&vCenter=true&width=640&height=90&lines=Hi+There!+%F0%9F%91%8B;I+am+Lenny;Developer+from+Italy+%F0%9F%87%AE%F0%9F%87%B9" alt="Typing SVG" />
 </div>
 
 <div align="center">
@@ -22,7 +22,7 @@
 <p align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=lenny-ts.lenny-ts&" alt="Visitors" />
   <img src="https://img.shields.io/github/followers/lenny-ts?label=Followers&style=flat-square&color=6BCB77" alt="Followers" />
-  <img src="https://img.shields.io/github/stars/lenny-ts?affiliations=OWNER&style=flat-square&color=4D96FF" alt="Stars" />
+  <img src="https://img.shields.io/github/stars/lenny-ts?affiliations=OWNER&style=flat-square&color=6BCB77" alt="Stars" />
 </p>
 
 <br />
@@ -43,7 +43,7 @@
 
 ```python
 def lenny():
-    """A passionate software developer from Italy 🍝"""
+    """Software developer from Italy 🍝"""
     languages = ["Python", "Go", "TypeScript", "Java", "C"]
     vibes = ["coding", "learning", "getting high 💨"]
     projects = ["a lot of things"]
