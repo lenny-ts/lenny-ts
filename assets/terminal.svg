@@ -1,1 +1,75 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="570" height="284" viewBox="0 0 570 284" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" role="img" aria-label="Animated terminal demo"><title>readmecast terminal demo</title><style>.ln{opacity:0;}.l0{animation:show0 8.28s linear infinite none;}@keyframes show0{0%{opacity:1}100%{opacity:1}}.t0{animation:type0 8.28s linear infinite none;}@keyframes type0{0%{width:0}0%{width:0}2.899%{width:50.4px}100%{width:50.4px}}.c0{animation:cur0 8.28s linear infinite none;}@keyframes cur0{0%{opacity:0;transform:translateX(0)}0%{opacity:1;transform:translateX(0)}2.899%{opacity:1;transform:translateX(50.4px)}3.299%{opacity:0;transform:translateX(50.4px)}100%{opacity:0;transform:translateX(50.4px)}}.l1{animation:show1 8.28s linear infinite none;}@keyframes show1{0%{opacity:0}10.144%{opacity:0}10.145%{opacity:1}100%{opacity:1}}.l2{animation:show2 8.28s linear infinite none;}@keyframes show2{0%{opacity:0}17.631999999999998%{opacity:0}17.633%{opacity:1}100%{opacity:1}}.t2{animation:type2 8.28s linear infinite none;}@keyframes type2{0%{width:0}17.633%{width:0}24.396%{width:117.6px}100%{width:117.6px}}.c2{animation:cur2 8.28s linear infinite none;}@keyframes cur2{0%{opacity:0;transform:translateX(0)}17.633%{opacity:1;transform:translateX(0)}24.396%{opacity:1;transform:translateX(117.6px)}24.796%{opacity:0;transform:translateX(117.6px)}100%{opacity:0;transform:translateX(117.6px)}}.l3{animation:show3 8.28s linear infinite none;}@keyframes show3{0%{opacity:0}31.642%{opacity:0}31.643%{opacity:1}100%{opacity:1}}.l4{animation:show4 8.28s linear infinite none;}@keyframes show4{0%{opacity:0}39.129000000000005%{opacity:0}39.13%{opacity:1}100%{opacity:1}}.t4{animation:type4 8.28s linear infinite none;}@keyframes type4{0%{width:0}39.13%{width:0}42.995%{width:67.2px}100%{width:67.2px}}.c4{animation:cur4 8.28s linear infinite none;}@keyframes cur4{0%{opacity:0;transform:translateX(0)}39.13%{opacity:1;transform:translateX(0)}42.995%{opacity:1;transform:translateX(67.2px)}43.394999999999996%{opacity:0;transform:translateX(67.2px)}100%{opacity:0;transform:translateX(67.2px)}}.l5{animation:show5 8.28s linear infinite none;}@keyframes show5{0%{opacity:0}50.241%{opacity:0}50.242%{opacity:1}100%{opacity:1}}.l6{animation:show6 8.28s linear infinite none;}@keyframes show6{0%{opacity:0}51.690000000000005%{opacity:0}51.691%{opacity:1}100%{opacity:1}}.l7{animation:show7 8.28s linear infinite none;}@keyframes show7{0%{opacity:0}53.139%{opacity:0}53.14%{opacity:1}100%{opacity:1}}.l8{animation:show8 8.28s linear infinite none;}@keyframes show8{0%{opacity:0}54.588%{opacity:0}54.589%{opacity:1}100%{opacity:1}}.l9{animation:show9 8.28s linear infinite none;}@keyframes show9{0%{opacity:0}62.076%{opacity:0}62.077%{opacity:1}100%{opacity:1}}.t9{animation:type9 8.28s linear infinite none;}@keyframes type9{0%{width:0}62.077%{width:0}68.357%{width:109.2px}100%{width:109.2px}}.c9{animation:cur9 8.28s linear infinite none;}@keyframes cur9{0%{opacity:0;transform:translateX(0)}62.077%{opacity:1;transform:translateX(0)}68.357%{opacity:1;transform:translateX(109.2px)}68.757%{opacity:0;transform:translateX(109.2px)}100%{opacity:0;transform:translateX(109.2px)}}.l10{animation:show10 8.28s linear infinite none;}@keyframes show10{0%{opacity:0}75.603%{opacity:0}75.604%{opacity:1}100%{opacity:1}}</style><rect x="0.5" y="0.5" width="569" height="283" rx="10" fill="#0c0c0c" stroke="#11111b" stroke-width="1"/><path d="M0.5 10.5 a10 10 0 0 1 10 -10 h549 a10 10 0 0 1 10 10 v26 h-569 z" fill="#202020"/><circle cx="20" cy="18" r="6" fill="#f38ba8"/><circle cx="40" cy="18" r="6" fill="#f9e2af"/><circle cx="60" cy="18" r="6" fill="#4af626"/><text x="285" y="18" fill="#9a9a9a" font-size="13" text-anchor="middle" dominant-baseline="central">lenny@devbox: ~</text><g transform="translate(0 36)"><text x="16" y="28" fill="#4af626" font-size="14" class="ln l0">$</text><clipPath id="clip0"><rect class="type t0" x="32.8" y="14" width="0" height="20"/></clipPath><g clip-path="url(#clip0)"><text x="32.8" y="28" fill="#e6edf3" font-size="14" xml:space="preserve">whoami</text></g><rect class="cur c0" x="32.8" y="17" width="8.4" height="15" fill="#4af626" opacity="0"/><text x="16" y="48" fill="#7ee787" font-size="14" class="ln l1" xml:space="preserve">lenny — passionate software developer from Italy 🇮🇹</text><text x="16" y="68" fill="#4af626" font-size="14" class="ln l2">$</text><clipPath id="clip2"><rect class="type t2" x="32.8" y="54" width="0" height="20"/></clipPath><g clip-path="url(#clip2)"><text x="32.8" y="68" fill="#e6edf3" font-size="14" xml:space="preserve">cat skills.txt</text></g><rect class="cur c2" x="32.8" y="57" width="8.4" height="15" fill="#4af626" opacity="0"/><text x="16" y="88" fill="#7ee787" font-size="14" class="ln l3" xml:space="preserve">python · go · typescript · java · c</text><text x="16" y="108" fill="#4af626" font-size="14" class="ln l4">$</text><clipPath id="clip4"><rect class="type t4" x="32.8" y="94" width="0" height="20"/></clipPath><g clip-path="url(#clip4)"><text x="32.8" y="108" fill="#e6edf3" font-size="14" xml:space="preserve">./status</text></g><rect class="cur c4" x="32.8" y="97" width="8.4" height="15" fill="#4af626" opacity="0"/><text x="16" y="128" fill="#7ee787" font-size="14" class="ln l5" xml:space="preserve">✨ creating bugs since 2022</text><text x="16" y="148" fill="#7ee787" font-size="14" class="ln l6" xml:space="preserve">🔭 working on: a lot of things</text><text x="16" y="168" fill="#7ee787" font-size="14" class="ln l7" xml:space="preserve">🌱 learning: everything 🤓</text><text x="16" y="188" fill="#7ee787" font-size="14" class="ln l8" xml:space="preserve">🔒 most interesting projects: private</text><text x="16" y="208" fill="#4af626" font-size="14" class="ln l9">$</text><clipPath id="clip9"><rect class="type t9" x="32.8" y="194" width="0" height="20"/></clipPath><g clip-path="url(#clip9)"><text x="32.8" y="208" fill="#e6edf3" font-size="14" xml:space="preserve">echo $CONTACT</text></g><rect class="cur c9" x="32.8" y="197" width="8.4" height="15" fill="#4af626" opacity="0"/><text x="16" y="228" fill="#7ee787" font-size="14" class="ln l10" xml:space="preserve">discord · instagram</text></g></svg>
+<svg width="640" height="440" viewBox="0 0 640 440" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" role="img" aria-label="Animated terminal about me">
+<title>lenny@devbox: ~</title>
+<style>
+.ln{opacity:0}
+.p0{animation:p0 22s linear infinite}@keyframes p0{0%{opacity:1}100%{opacity:1}}
+.p3{animation:p3 22s linear infinite}@keyframes p3{0%{opacity:0}21.99%{opacity:0}22%{opacity:1}100%{opacity:1}}
+.p6{animation:p6 22s linear infinite}@keyframes p6{0%{opacity:0}41.99%{opacity:0}42%{opacity:1}100%{opacity:1}}
+.p12{animation:p12 22s linear infinite}@keyframes p12{0%{opacity:0}65.99%{opacity:0}66%{opacity:1}100%{opacity:1}}
+.p15{animation:p15 22s linear infinite}@keyframes p15{0%{opacity:0}82.99%{opacity:0}83%{opacity:1}100%{opacity:1}}
+.t0{animation:t0 22s linear infinite}@keyframes t0{0%{width:0}14%{width:50.4px}100%{width:50.4px}}
+.t1{animation:t1 22s linear infinite}@keyframes t1{0%{width:0}22%{width:0}34%{width:117.6px}100%{width:117.6px}}
+.t2{animation:t2 22s linear infinite}@keyframes t2{0%{width:0}42%{width:0}54%{width:67.2px}100%{width:67.2px}}
+.t3{animation:t3 22s linear infinite}@keyframes t3{0%{width:0}66%{width:0}77%{width:109.2px}100%{width:109.2px}}
+.l1{animation:l1 22s linear infinite}@keyframes l1{0%{opacity:0}15.99%{opacity:0}16%{opacity:1}100%{opacity:1}}
+.l4{animation:l4 22s linear infinite}@keyframes l4{0%{opacity:0}35.99%{opacity:0}36%{opacity:1}100%{opacity:1}}
+.l7{animation:l7 22s linear infinite}@keyframes l7{0%{opacity:0}55.99%{opacity:0}56%{opacity:1}100%{opacity:1}}
+.l8{animation:l8 22s linear infinite}@keyframes l8{0%{opacity:0}57.49%{opacity:0}57.5%{opacity:1}100%{opacity:1}}
+.l9{animation:l9 22s linear infinite}@keyframes l9{0%{opacity:0}58.99%{opacity:0}59%{opacity:1}100%{opacity:1}}
+.l10{animation:l10 22s linear infinite}@keyframes l10{0%{opacity:0}60.49%{opacity:0}60.5%{opacity:1}100%{opacity:1}}
+.l13{animation:l13 22s linear infinite}@keyframes l13{0%{opacity:0}78.99%{opacity:0}79%{opacity:1}100%{opacity:1}}
+.cvis0{animation:cvis0 22s linear infinite}@keyframes cvis0{0%{opacity:1}21.99%{opacity:1}22%{opacity:0}100%{opacity:0}}
+.cvis1{animation:cvis1 22s linear infinite}@keyframes cvis1{0%{opacity:0}21.99%{opacity:0}22%{opacity:1}41.99%{opacity:1}42%{opacity:0}100%{opacity:0}}
+.cvis2{animation:cvis2 22s linear infinite}@keyframes cvis2{0%{opacity:0}41.99%{opacity:0}42%{opacity:1}65.99%{opacity:1}66%{opacity:0}100%{opacity:0}}
+.cvis3{animation:cvis3 22s linear infinite}@keyframes cvis3{0%{opacity:0}65.99%{opacity:0}66%{opacity:1}82.99%{opacity:1}83%{opacity:0}100%{opacity:0}}
+.cvisF{animation:cvisF 22s linear infinite}@keyframes cvisF{0%{opacity:0}82.99%{opacity:0}83%{opacity:1}100%{opacity:1}}
+.cur0{animation:cur0 22s linear infinite}@keyframes cur0{0%{transform:translateX(0)}14%{transform:translateX(50.4px)}100%{transform:translateX(50.4px)}}
+.cur1{animation:cur1 22s linear infinite}@keyframes cur1{0%{transform:translateX(0)}22%{transform:translateX(0)}34%{transform:translateX(117.6px)}100%{transform:translateX(117.6px)}}
+.cur2{animation:cur2 22s linear infinite}@keyframes cur2{0%{transform:translateX(0)}42%{transform:translateX(0)}54%{transform:translateX(67.2px)}100%{transform:translateX(67.2px)}}
+.cur3{animation:cur3 22s linear infinite}@keyframes cur3{0%{transform:translateX(0)}66%{transform:translateX(0)}77%{transform:translateX(109.2px)}100%{transform:translateX(109.2px)}}
+</style>
+
+<rect x="0.5" y="0.5" width="639" height="439" rx="10" fill="#0c0c0c" stroke="#11111b" stroke-width="1"/>
+<path d="M0.5 10.5 a10 10 0 0 1 10 -10 h619 a10 10 0 0 1 10 10 v26 h-639 z" fill="#202020"/>
+<circle cx="22" cy="18" r="6" fill="#ff5f56"/>
+<circle cx="42" cy="18" r="6" fill="#ffbd2e"/>
+<circle cx="62" cy="18" r="6" fill="#27c93f"/>
+<text x="320" y="18" fill="#9a9a9a" font-size="12" text-anchor="middle" dominant-baseline="central">lenny@devbox: ~ — bash</text>
+
+<pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+  <rect width="4" height="1" fill="#000" opacity="0.12"/>
+</pattern>
+<rect x="0.5" y="0.5" width="639" height="439" rx="10" fill="url(#scan)" pointer-events="none"/>
+
+<g transform="translate(0 44)">
+  <text x="16" y="17" fill="#4af626" class="ln p0">lenny@devbox:~$</text>
+  <clipPath id="clip0"><rect class="t0" x="150.4" y="3" width="0" height="20"/></clipPath>
+  <g clip-path="url(#clip0)"><text x="150.4" y="17" fill="#e6edf3" xml:space="preserve">whoami</text></g>
+  <g class="cvis0"><rect class="cur0" x="150.4" y="3" width="8.4" height="15" fill="#4af626"><animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" dur="1.2s" repeatCount="indefinite"/></rect></g>
+  <text x="16" y="41" fill="#7ee787" class="ln l1" xml:space="preserve">lenny — passionate software developer from Italy 🇮🇹</text>
+
+  <text x="16" y="89" fill="#4af626" class="ln p3">lenny@devbox:~$</text>
+  <clipPath id="clip1"><rect class="t1" x="150.4" y="75" width="0" height="20"/></clipPath>
+  <g clip-path="url(#clip1)"><text x="150.4" y="89" fill="#e6edf3" xml:space="preserve">cat skills.txt</text></g>
+  <g class="cvis1"><rect class="cur1" x="150.4" y="75" width="8.4" height="15" fill="#4af626"><animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" dur="1.2s" repeatCount="indefinite"/></rect></g>
+  <text x="16" y="113" fill="#7ee787" class="ln l4" xml:space="preserve">python · go · typescript · java · c</text>
+
+  <text x="16" y="161" fill="#4af626" class="ln p6">lenny@devbox:~$</text>
+  <clipPath id="clip2"><rect class="t2" x="150.4" y="147" width="0" height="20"/></clipPath>
+  <g clip-path="url(#clip2)"><text x="150.4" y="161" fill="#e6edf3" xml:space="preserve">./status</text></g>
+  <g class="cvis2"><rect class="cur2" x="150.4" y="147" width="8.4" height="15" fill="#4af626"><animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" dur="1.2s" repeatCount="indefinite"/></rect></g>
+  <text x="16" y="185" fill="#7ee787" class="ln l7" xml:space="preserve">✨ creating bugs since 2022</text>
+  <text x="16" y="209" fill="#7ee787" class="ln l8" xml:space="preserve">🔭 working on: a lot of things</text>
+  <text x="16" y="233" fill="#7ee787" class="ln l9" xml:space="preserve">🌱 learning: everything 🤓</text>
+  <text x="16" y="257" fill="#7ee787" class="ln l10" xml:space="preserve">🔒 most interesting projects: private</text>
+
+  <text x="16" y="305" fill="#4af626" class="ln p12">lenny@devbox:~$</text>
+  <clipPath id="clip3"><rect class="t3" x="150.4" y="291" width="0" height="20"/></clipPath>
+  <g clip-path="url(#clip3)"><text x="150.4" y="305" fill="#e6edf3" xml:space="preserve">echo $CONTACT</text></g>
+  <g class="cvis3"><rect class="cur3" x="150.4" y="291" width="8.4" height="15" fill="#4af626"><animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" dur="1.2s" repeatCount="indefinite"/></rect></g>
+  <text x="16" y="329" fill="#7ee787" class="ln l13" xml:space="preserve">discord · instagram</text>
+
+  <text x="16" y="377" fill="#4af626" class="ln p15">lenny@devbox:~$</text>
+  <g class="cvisF"><rect x="150.4" y="363" width="8.4" height="15" fill="#4af626"><animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" dur="1.2s" repeatCount="indefinite"/></rect></g>
+</g>
+</svg>
