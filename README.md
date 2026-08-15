@@ -35,15 +35,6 @@
   <img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/feature/readme-overhaul/assets/terminal.svg?v=6" alt="Animated terminal demo" width="600" />
 </div>
 
-<div align="center">
-  <a href="https://discordapp.com/users/1001158048276033536" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo" />
-  </a>
-  <a href="https://www.instagram.com/lenny.ts_" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo" />
-  </a>
-</div>
-
 <br />
 
 <hr />
@@ -176,6 +167,16 @@ flowchart LR
 <div align="center">
   <h2>💖 Support Me</h2>
   <a href='https://ko-fi.com/profumato' target='_blank'><img height='64' style='border:0px;height:64px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+</div>
+
+<div align="center">
+  <h3>📬 Find me here</h3>
+  <a href="https://discordapp.com/users/1001158048276033536" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo" />
+  </a>
+  <a href="https://www.instagram.com/lenny.ts_" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo" />
+  </a>
 </div>
 
 <br />
