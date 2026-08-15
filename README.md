@@ -32,7 +32,7 @@
 ## 🧑‍💻 About Me
 
 <div align="center">
-  <img src="assets/terminal.svg" alt="Animated terminal demo" width="600" />
+  <img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/feature/readme-overhaul/assets/terminal.svg?v=3" alt="Animated terminal demo" width="600" />
 </div>
 
 <div align="center">
