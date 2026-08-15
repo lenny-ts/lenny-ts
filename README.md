@@ -31,17 +31,17 @@
 
 <div align="center">
   <a href="https://github.com/lenny-ts/league_profile_tool">
-    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin?username=lenny-ts&repo=league_profile_tool&theme=vue-dark" alt="league_profile_tool" />
+    <img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/feature/featured-repos/assets/repos/league_profile_tool.svg?v=1" alt="league_profile_tool" width="480" />
   </a>
   <a href="https://github.com/lenny-ts/caddy-analyzer">
-    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin?username=lenny-ts&repo=caddy-analyzer&theme=vue-dark" alt="caddy-analyzer" />
+    <img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/feature/featured-repos/assets/repos/caddy-analyzer.svg?v=1" alt="caddy-analyzer" width="480" />
   </a>
   <br />
   <a href="https://github.com/lenny-ts/tdl">
-    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin?username=lenny-ts&repo=tdl&theme=vue-dark" alt="tdl" />
+    <img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/feature/featured-repos/assets/repos/tdl.svg?v=1" alt="tdl" width="480" />
   </a>
   <a href="https://github.com/lenny-ts/Spotify-Playlist-Reader">
-    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin?username=lenny-ts&repo=Spotify-Playlist-Reader&theme=vue-dark" alt="Spotify-Playlist-Reader" />
+    <img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/feature/featured-repos/assets/repos/Spotify-Playlist-Reader.svg?v=1" alt="Spotify-Playlist-Reader" width="480" />
   </a>
 </div>
 
