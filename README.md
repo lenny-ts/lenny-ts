@@ -30,11 +30,11 @@
 ## 📌 Pinned Repos
 
 <div align="center">
-  <a href="https://github.com/lenny-ts/league_profile_tool"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/league_profile_tool.png?v=1786938804" alt="league_profile_tool" width="400" /></a>&nbsp;&nbsp;
-  <a href="https://github.com/lenny-ts/caddy-analyzer"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/caddy-analyzer.png?v=1786938804" alt="caddy-analyzer" width="400" /></a>
+  <a href="https://github.com/lenny-ts/league_profile_tool"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/league_profile_tool.png?v=1787024880" alt="league_profile_tool" width="400" /></a>&nbsp;&nbsp;
+  <a href="https://github.com/lenny-ts/caddy-analyzer"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/caddy-analyzer.png?v=1787024880" alt="caddy-analyzer" width="400" /></a>
   <br /><br />
-  <a href="https://github.com/lenny-ts/tdl"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/tdl.png?v=1786938804" alt="tdl" width="400" /></a>&nbsp;&nbsp;
-  <a href="https://github.com/lenny-ts/Spotify-Playlist-Reader"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/Spotify-Playlist-Reader.png?v=1786938804" alt="Spotify-Playlist-Reader" width="400" /></a>
+  <a href="https://github.com/lenny-ts/tdl"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/tdl.png?v=1787024880" alt="tdl" width="400" /></a>&nbsp;&nbsp;
+  <a href="https://github.com/lenny-ts/Spotify-Playlist-Reader"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/Spotify-Playlist-Reader.png?v=1787024880" alt="Spotify-Playlist-Reader" width="400" /></a>
 </div>
 
 <br />
@@ -111,7 +111,7 @@
 
 <div align="center">
   <h2>💖 Support Me</h2>
-  <a href='https://ko-fi.com/profumato' target='_blank'><img height='64' style='border:0px;height:64px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=1786938804' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+  <a href='https://ko-fi.com/profumato' target='_blank'><img height='64' style='border:0px;height:64px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=1787024880' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 </div>
 
 <div align="center">
