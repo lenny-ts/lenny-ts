@@ -9,8 +9,41 @@ MAX_LINES = 3
 USABLE = 428
 DESC_SIZE = 13
 
+BG = "#0d1117"
+BORDER = "#30363d"
+ACCENT = "#2f81f7"
+MUTED = "#8b949e"
+
 FONT_PATH = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 font = ImageFont.truetype(FONT_PATH, DESC_SIZE)
+meta_font = ImageFont.truetype(FONT_PATH, 13)
+
+REPO_ICON = (
+    "M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 "
+    "0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 "
+    "1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 "
+    "1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 "
+    ".25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087"
+    "a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"
+)
+STAR_ICON = (
+    "M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 "
+    ".416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 "
+    "12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75"
+    ".75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 "
+    "2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 "
+    "0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 "
+    "1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 "
+    "0 0 1-.564-.41L8 2.694Z"
+)
+FORK_ICON = (
+    "M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878"
+    "a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128"
+    "a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878"
+    "a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 "
+    "1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75."
+    "75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"
+)
 
 REPO_OWNER = "lenny-ts"
 
@@ -104,6 +137,24 @@ def esc(t):
     return html.escape(t, quote=True)
 
 
+def fmt_count(n):
+    if n >= 1_000_000:
+        v = f"{n / 1_000_000:.1f}".rstrip("0").rstrip(".")
+        return f"{v}m"
+    if n >= 1000:
+        v = f"{n / 1000:.1f}".rstrip("0").rstrip(".")
+        return f"{v}k"
+    return str(n)
+
+
+def icon(d, x, y_top, size=13, color=MUTED):
+    s = size / 16
+    return (
+        f'  <g transform="translate({x:.2f},{y_top:.2f}) scale({s:.5f})" '
+        f'fill="{color}"><path d="{d}"/></g>'
+    )
+
+
 def card(r, stars, forks):
     title = card_title(r)
     lines = wrap(r["desc"])
@@ -115,41 +166,54 @@ def card(r, stars, forks):
         f"Roboto, Helvetica, Arial, sans-serif\" role=\"img\" "
         f'aria-label="{esc(title)}">'
     )
-    parts.append(f'  <rect width="{W}" height="{H}" fill="#1a1b27"/>')
-    parts.append(f'  <rect width="{W}" height="{H}" rx="8" fill="none" stroke="#2f3352"/>')
+    parts.append(f'  <rect width="{W}" height="{H}" fill="{BG}"/>')
     parts.append(
-        f'  <text x="20" y="32" font-size="16" font-weight="700" '
-        f'fill="#e1e4e8" xml:space="preserve">{esc(title)}</text>'
+        f'  <rect width="{W}" height="{H}" rx="6" fill="none" stroke="{BORDER}"/>'
     )
+
+    icon_x = 20
+    title_x = icon_x + 16 + 7
+    parts.append(icon(REPO_ICON, icon_x, 18.5, size=16, color=MUTED))
+    parts.append(
+        f'  <text x="{title_x}" y="32" font-size="14" font-weight="600" '
+        f'fill="{ACCENT}" xml:space="preserve">{esc(title)}</text>'
+    )
+
     y = 62
     for ln in lines:
         if ln:
             parts.append(
                 f'  <text x="20" y="{y}" font-size="{DESC_SIZE}" '
-                f'fill="#9da7d3" xml:space="preserve">{esc(ln)}</text>'
+                f'fill="{MUTED}" xml:space="preserve">{esc(ln)}</text>'
             )
         y += 20
-    parts.append(f'  <circle cx="20" cy="151" r="4" fill="{r["color"]}"/>')
+
+    baseline = 156
+    mid = baseline - 4.75
+    x = 20.0
+    parts.append(f'  <circle cx="{x + 5:.2f}" cy="{mid - 0.25:.2f}" r="5" fill="{r["color"]}"/>')
+    x += 10 + 6
     parts.append(
-        f'  <text x="32" y="156" font-size="13" fill="#9da7d3" '
+        f'  <text x="{x:.2f}" y="{baseline}" font-size="13" fill="{MUTED}" '
         f'xml:space="preserve">{esc(r["lang"])}</text>'
     )
+    x += meta_font.getlength(r["lang"]) + 16
+
+    star_txt = fmt_count(stars)
+    parts.append(icon(STAR_ICON, x, mid - 8.5, size=17))
+    x += 17 + 5
     parts.append(
-        f'  <text x="418" y="158" font-size="18" text-anchor="end" '
-        f'fill="#9da7d3" xml:space="preserve">★ {stars}</text>'
+        f'  <text x="{x:.2f}" y="{baseline}" font-size="13" fill="{MUTED}" '
+        f'xml:space="preserve">{star_txt}</text>'
     )
+    x += meta_font.getlength(star_txt) + 16
+
+    fork_txt = fmt_count(forks)
+    parts.append(icon(FORK_ICON, x, mid - 8.5, size=17))
+    x += 13 + 5
     parts.append(
-        f'  <g transform="translate(435,152) scale(0.85)" '
-        f'fill="none" stroke="#9da7d3" stroke-width="2.2">'
-    )
-    parts.append('    <circle cx="-4.5" cy="-4.5" r="2.2"/>')
-    parts.append('    <circle cx="4.5" cy="-4.5" r="2.2"/>')
-    parts.append('    <circle cx="0" cy="4.5" r="2.2"/>')
-    parts.append('    <path d="M -4.5,-2.3 L -4.5,1.5 M 4.5,-2.3 L 4.5,0.5 Q 4.5,2.5 2.5,2.5 L 0,2.5"/>')
-    parts.append("  </g>")
-    parts.append(
-        f'  <text x="458" y="156" font-size="13" fill="#9da7d3" '
-        f'text-anchor="end" xml:space="preserve">{forks}</text>'
+        f'  <text x="{x:.2f}" y="{baseline}" font-size="13" fill="{MUTED}" '
+        f'xml:space="preserve">{fork_txt}</text>'
     )
     parts.append("</svg>")
     return "\n".join(parts) + "\n"
