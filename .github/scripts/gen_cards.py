@@ -6,8 +6,10 @@ from PIL import ImageFont
 
 W, H = 480, 180
 MAX_LINES = 3
-USABLE = 428
-DESC_SIZE = 13
+USABLE = 444
+DESC_SIZE = 12
+PAD = 16
+LH = 18
 
 BG = "#0d1117"
 BORDER = "#30363d"
@@ -16,7 +18,7 @@ MUTED = "#8b949e"
 
 FONT_PATH = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 font = ImageFont.truetype(FONT_PATH, DESC_SIZE)
-meta_font = ImageFont.truetype(FONT_PATH, 13)
+meta_font = ImageFont.truetype(FONT_PATH, DESC_SIZE)
 
 REPO_ICON = (
     "M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 "
@@ -171,48 +173,53 @@ def card(r, stars, forks):
         f'  <rect width="{W}" height="{H}" rx="6" fill="none" stroke="{BORDER}"/>'
     )
 
-    icon_x = 20
-    title_x = icon_x + 16 + 7
-    parts.append(icon(REPO_ICON, icon_x, 18.5, size=16, color=MUTED))
+    title_row_h = 21
+    icon_x = PAD
+    title_x = icon_x + 16 + 4
     parts.append(
-        f'  <text x="{title_x}" y="32" font-size="14" font-weight="600" '
+        icon(REPO_ICON, icon_x, PAD + (title_row_h - 16) / 2, size=16, color=MUTED)
+    )
+    parts.append(
+        f'  <text x="{title_x}" y="{PAD + title_row_h / 2 + 5:.1f}" '
+        f'font-size="14" font-weight="600" '
         f'fill="{ACCENT}" xml:space="preserve">{esc(title)}</text>'
     )
 
-    y = 62
+    y = PAD + title_row_h + 4 + DESC_SIZE * 1.1
     for ln in lines:
         if ln:
             parts.append(
-                f'  <text x="20" y="{y}" font-size="{DESC_SIZE}" '
+                f'  <text x="{PAD}" y="{y:.1f}" font-size="{DESC_SIZE}" '
                 f'fill="{MUTED}" xml:space="preserve">{esc(ln)}</text>'
             )
-        y += 20
+        y += LH
 
-    baseline = 156
-    mid = baseline - 4.75
-    x = 20.0
-    parts.append(f'  <circle cx="{x + 5:.2f}" cy="{mid - 0.25:.2f}" r="5" fill="{r["color"]}"/>')
-    x += 10 + 6
+    footer_row_top = H - PAD - LH
+    baseline = footer_row_top + DESC_SIZE * 1.1
+    mid = footer_row_top + LH / 2
+    x = float(PAD)
+    parts.append(f'  <circle cx="{x + 5:.2f}" cy="{mid + 1:.2f}" r="5" fill="{r["color"]}"/>')
+    x += 10 + 5
     parts.append(
-        f'  <text x="{x:.2f}" y="{baseline}" font-size="13" fill="{MUTED}" '
+        f'  <text x="{x:.2f}" y="{baseline:.1f}" font-size="{DESC_SIZE}" fill="{MUTED}" '
         f'xml:space="preserve">{esc(r["lang"])}</text>'
     )
     x += meta_font.getlength(r["lang"]) + 16
 
     star_txt = fmt_count(stars)
-    parts.append(icon(STAR_ICON, x, mid - 8.5, size=17))
-    x += 17 + 5
+    parts.append(icon(STAR_ICON, x, mid - 8, size=16))
+    x += 16 + 4
     parts.append(
-        f'  <text x="{x:.2f}" y="{baseline}" font-size="13" fill="{MUTED}" '
+        f'  <text x="{x:.2f}" y="{baseline:.1f}" font-size="{DESC_SIZE}" fill="{MUTED}" '
         f'xml:space="preserve">{star_txt}</text>'
     )
     x += meta_font.getlength(star_txt) + 16
 
     fork_txt = fmt_count(forks)
-    parts.append(icon(FORK_ICON, x, mid - 8.5, size=17))
-    x += 13 + 5
+    parts.append(icon(FORK_ICON, x, mid - 8, size=16))
+    x += 16 + 4
     parts.append(
-        f'  <text x="{x:.2f}" y="{baseline}" font-size="13" fill="{MUTED}" '
+        f'  <text x="{x:.2f}" y="{baseline:.1f}" font-size="{DESC_SIZE}" fill="{MUTED}" '
         f'xml:space="preserve">{fork_txt}</text>'
     )
     parts.append("</svg>")
