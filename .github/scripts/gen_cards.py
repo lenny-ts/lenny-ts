@@ -20,38 +20,51 @@ REPOS = [
         "desc": "Hextech-inspired tool for League of Legends profile customization. Built with Tauri v2 & React. Features real-time LCU sync, custom status management, and automated updates.",
         "lang": "TypeScript",
         "color": "#3178c6",
-        "forked_from": None,
     },
     {
         "name": "caddy-analyzer",
         "desc": "Fast, zero-dependency access log analyzer, security threat inspector, and TUI dashboard for Caddy v2. Real-time traffic stats, bot detection, and geo-IP lookups.",
         "lang": "Go",
         "color": "#00ADD8",
-        "forked_from": None,
     },
     {
         "name": "tdl",
+        "owner": "iyear",
         "desc": "A Telegram toolkit written in Golang. Migrate chats, export messages, and manage sessions from the CLI. Supports concurrent downloads and bulk operations.",
         "lang": "Go",
         "color": "#00ADD8",
-        "forked_from": "iyear/tdl",
     },
     {
-        "name": "Spotify-Playlist-Reader",
-        "desc": "Analyze public Spotify playlists and surface insights in a sortable table. Track song frequency, duration, and artist distribution at a glance.",
-        "lang": "Java",
-        "color": "#b07219",
-        "forked_from": None,
+        "name": "homebutler",
+        "owner": "Higangssh",
+        "desc": "Manage your homelab from chat. Single binary, zero dependencies.",
+        "lang": "Go",
+        "color": "#00ADD8",
+    },
+    {
+        "name": "velachess",
+        "owner": "velachess",
+        "desc": "Turn your games into better chess. Syncs chess.com and Lichess games, builds your opening book from your own play, and turns mistakes into spaced-repetition drills.",
+        "lang": "TypeScript",
+        "color": "#3178c6",
     },
 ]
 
 
-def fetch_repo_data(name):
+def repo_slug(r):
+    return f'{r.get("owner", REPO_OWNER)}/{r["name"]}'
+
+
+def card_title(r):
+    return r["name"] if r.get("owner", REPO_OWNER) == REPO_OWNER else repo_slug(r)
+
+
+def fetch_repo_data(r):
     token = os.environ.get("GITHUB_TOKEN")
     headers = {"Accept": "application/vnd.github.v3+json"}
     if token:
         headers["Authorization"] = f"Bearer {token}"
-    url = f"https://api.github.com/repos/{REPO_OWNER}/{name}"
+    url = f"https://api.github.com/repos/{repo_slug(r)}"
     req = urllib.request.Request(url, headers=headers)
     try:
         data = json.loads(urllib.request.urlopen(req).read())
@@ -59,7 +72,7 @@ def fetch_repo_data(name):
         forks = data.get("forks_count", 0)
         return stars, forks
     except Exception as e:
-        print(f"  WARN: could not fetch {name}: {e}")
+        print(f"  WARN: could not fetch {repo_slug(r)}: {e}")
         return 0, 0
 
 
@@ -92,6 +105,7 @@ def esc(t):
 
 
 def card(r, stars, forks):
+    title = card_title(r)
     lines = wrap(r["desc"])
     parts = []
     parts.append(
@@ -99,13 +113,13 @@ def card(r, stars, forks):
         f'xmlns="http://www.w3.org/2000/svg" '
         f"font-family=\"'DejaVu Sans', system-ui, -apple-system, 'Segoe UI', "
         f"Roboto, Helvetica, Arial, sans-serif\" role=\"img\" "
-        f'aria-label="{esc(r["name"])}">'
+        f'aria-label="{esc(title)}">'
     )
     parts.append(f'  <rect width="{W}" height="{H}" fill="#1a1b27"/>')
     parts.append(f'  <rect width="{W}" height="{H}" rx="8" fill="none" stroke="#2f3352"/>')
     parts.append(
         f'  <text x="20" y="32" font-size="16" font-weight="700" '
-        f'fill="#e1e4e8" xml:space="preserve">{esc(r["name"])}</text>'
+        f'fill="#e1e4e8" xml:space="preserve">{esc(title)}</text>'
     )
     y = 62
     for ln in lines:
@@ -116,10 +130,9 @@ def card(r, stars, forks):
             )
         y += 20
     parts.append(f'  <circle cx="20" cy="151" r="4" fill="{r["color"]}"/>')
-    left = f"{r['lang']} · forked from {r['forked_from']}" if r["forked_from"] else r["lang"]
     parts.append(
         f'  <text x="32" y="156" font-size="13" fill="#9da7d3" '
-        f'xml:space="preserve">{esc(left)}</text>'
+        f'xml:space="preserve">{esc(r["lang"])}</text>'
     )
     parts.append(
         f'  <text x="418" y="158" font-size="18" text-anchor="end" '
@@ -150,8 +163,8 @@ def main():
     os.makedirs(outdir, exist_ok=True)
 
     for r in REPOS:
-        print(f"Fetching {r['name']}...")
-        stars, forks = fetch_repo_data(r["name"])
+        print(f"Fetching {repo_slug(r)}...")
+        stars, forks = fetch_repo_data(r)
         print(f"  stars={stars}, forks={forks}")
         svg = card(r, stars, forks)
         svg_path = os.path.join(outdir, r["name"] + ".svg")
