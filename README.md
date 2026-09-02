@@ -30,13 +30,13 @@
 ## 📌 Pinned Repos
 
 <div align="center">
-  <a href="https://github.com/lenny-ts/league_profile_tool"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/league_profile_tool.png?v=1788251221" alt="league_profile_tool" width="400" /></a>&nbsp;&nbsp;
-  <a href="https://github.com/lenny-ts/caddy-analyzer"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/caddy-analyzer.png?v=1788251221" alt="caddy-analyzer" width="400" /></a>
+  <a href="https://github.com/lenny-ts/league_profile_tool"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/league_profile_tool.png?v=1788335098" alt="league_profile_tool" width="400" /></a>&nbsp;&nbsp;
+  <a href="https://github.com/lenny-ts/caddy-analyzer"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/caddy-analyzer.png?v=1788335098" alt="caddy-analyzer" width="400" /></a>
   <br /><br />
-  <a href="https://github.com/iyear/tdl"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/tdl.png?v=1788251221" alt="iyear/tdl" width="400" /></a>&nbsp;&nbsp;
-  <a href="https://github.com/Higangssh/homebutler"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/homebutler.png?v=1788251221" alt="Higangssh/homebutler" width="400" /></a>
+  <a href="https://github.com/iyear/tdl"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/tdl.png?v=1788335098" alt="iyear/tdl" width="400" /></a>&nbsp;&nbsp;
+  <a href="https://github.com/Higangssh/homebutler"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/homebutler.png?v=1788335098" alt="Higangssh/homebutler" width="400" /></a>
   <br /><br />
-  <a href="https://github.com/velachess/velachess"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/velachess.png?v=1788251221" alt="velachess/velachess" width="400" /></a>
+  <a href="https://github.com/velachess/velachess"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/velachess.png?v=1788335098" alt="velachess/velachess" width="400" /></a>
 </div>
 
 <br />
@@ -113,7 +113,7 @@
 
 <div align="center">
   <h2>💖 Support Me</h2>
-  <a href='https://ko-fi.com/profumato' target='_blank'><img height='64' style='border:0px;height:64px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=1788251221' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+  <a href='https://ko-fi.com/profumato' target='_blank'><img height='64' style='border:0px;height:64px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=1788335098' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 </div>
 
 <div align="center">
