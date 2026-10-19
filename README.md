@@ -60,7 +60,7 @@
 
 | Project | Version | Date | Notes |
 |:---|---:|---:|:---|
-| [caddy-analyzer](https://github.com/lenny-ts/caddy-analyzer/releases/tag/v0.8.0) | v0.8.0 | 2026-10-14 | `v0.8.0` |
+| [caddy-analyzer](https://github.com/lenny-ts/caddy-analyzer/releases/tag/v0.8.1) | v0.8.1 | 2026-10-19 | `v0.8.1` |
 | [league_profile_tool](https://github.com/lenny-ts/league_profile_tool/releases/tag/v2.0.1) | v2.0.1 | 2026-10-11 | `League Profile Tool v2.0.1` |
 | [Spotify-Playlist-Reader](https://github.com/lenny-ts/Spotify-Playlist-Reader/releases/tag/1.3) | 1.3 | 2024-09-24 | `1.3` |
 
