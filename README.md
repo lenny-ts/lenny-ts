@@ -20,10 +20,10 @@ My work spans Go, Python and TypeScript, with an interest in automation and deve
 
 ## Tech stack
 
-- **Languages:** Go, Python, TypeScript, JavaScript, Java, C, PHP
+- **Languages:** Go, Python, TypeScript, JavaScript, Java, C, PHP, Bash
 - **Web & APIs:** Svelte, Django, FastAPI, Node.js, Tailwind CSS, HTML, CSS
-- **Data:** MySQL, Redis, SQLite
-- **Tools & platforms:** Git, Docker, Linux, Bash, npm, pnpm
+- **Data:** PostgreSQL, MySQL, Redis, SQLite
+- **Tools & platforms:** Git, Docker, Linux, npm, pnpm
 
 ## Latest releases
 
@@ -37,16 +37,15 @@ My work spans Go, Python and TypeScript, with an interest in automation and deve
 
 <!-- DEPLOY_JOURNAL_END -->
 
-<sub>Updated automatically from my repositories' latest releases.</sub>
-
 ## Behind the code
 
 <details>
 <summary>A little more about me</summary>
 
-<br />
-
-<img src="assets/terminal.svg" alt="Animated terminal introducing Lenny, his skills and interests" width="600" />
+- **What I build:** small, focused tools for automation, desktop customization and everyday development.
+- **What interests me:** command-line interfaces, web applications and the systems behind them.
+- **How I keep learning:** experimenting with different languages and turning ideas into working projects.
+- **Collaboration:** open to exchanging ideas and building useful software together.
 
 </details>
 
