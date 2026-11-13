@@ -1,60 +1,31 @@
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=30&duration=4000&pause=600&color=6BCB77&center=true&vCenter=true&width=640&height=90&lines=Hi+There!+%F0%9F%91%8B;I+am+Lenny;Developer+from+Italy+%F0%9F%87%AE%F0%9F%87%B9" alt="Typing SVG" />
-</div>
+# Hi, I'm Lenny
 
+**Software developer based in Italy.**
 
-<div align="center">
-  <svg viewBox="0 0 480 90" width="480" height="90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="I'm Lenny">
-    <defs>
-      <linearGradient id="name-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#b8f2c6" />
-        <stop offset="25%" stop-color="#7ee787" />
-        <stop offset="50%" stop-color="#4af626" />
-        <stop offset="75%" stop-color="#2ea043" />
-        <stop offset="100%" stop-color="#0f8a4d" />
-      </linearGradient>
-    </defs>
-    <text x="50%" y="55" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="52" font-weight="800" fill="url(#name-grad)">I'm Lenny ✨</text>
-  </svg>
-</div>
+I build practical tools, from command-line utilities to desktop and web applications.
+My work spans Go, Python and TypeScript, with an interest in automation and developer tooling.
 
-<p align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=lenny-ts.lenny-ts&" alt="Visitors" />
-  <img src="https://img.shields.io/github/followers/lenny-ts?label=Followers&style=flat-square&color=6BCB77" alt="Followers" />
-  <img src="https://img.shields.io/github/stars/lenny-ts?affiliations=OWNER&style=flat-square&color=6BCB77" alt="Stars" />
-</p>
+[Projects](#selected-projects) · [Tech stack](#tech-stack) · [Latest releases](#latest-releases) · [Get in touch](#get-in-touch)
 
-<br />
+## Selected projects
 
-<hr />
+| Project | Overview | Built with |
+| :--- | :--- | :--- |
+| [**Caddy Analyzer**](https://github.com/lenny-ts/caddy-analyzer) | Zero-dependency Caddy v2 access-log analyzer with a terminal dashboard, traffic statistics and threat inspection. | Go |
+| [**League Profile Tool**](https://github.com/lenny-ts/league_profile_tool) | League of Legends profile customization with real-time LCU sync, custom status management and automatic updates. | TypeScript, React, Tauri v2 |
 
-## 📌 Pinned Repos
+**Also worth exploring:** [tdl](https://github.com/iyear/tdl) · [Homebutler](https://github.com/Higangssh/homebutler) · [Vela Chess](https://github.com/velachess/velachess)
 
-<div align="center">
-  <a href="https://github.com/lenny-ts/league_profile_tool"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/league_profile_tool.png?v=1794566561" alt="league_profile_tool" width="400" /></a>&nbsp;&nbsp;
-  <a href="https://github.com/lenny-ts/caddy-analyzer"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/caddy-analyzer.png?v=1794566561" alt="caddy-analyzer" width="400" /></a>
-  <br /><br />
-  <a href="https://github.com/iyear/tdl"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/tdl.png?v=1794566561" alt="iyear/tdl" width="400" /></a>&nbsp;&nbsp;
-  <a href="https://github.com/Higangssh/homebutler"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/homebutler.png?v=1794566561" alt="Higangssh/homebutler" width="400" /></a>
-  <br /><br />
-  <a href="https://github.com/velachess/velachess"><img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/repos/velachess.png?v=1794566561" alt="velachess/velachess" width="400" /></a>
-</div>
+[Browse all my repositories →](https://github.com/lenny-ts?tab=repositories)
 
-<br />
+## Tech stack
 
-<hr />
+- **Languages:** Go, Python, TypeScript, JavaScript, Java, C, PHP
+- **Web & APIs:** Svelte, Django, FastAPI, Node.js, Tailwind CSS, HTML, CSS
+- **Data:** MySQL, Redis, SQLite
+- **Tools & platforms:** Git, Docker, Linux, Bash, npm, pnpm
 
-## 🧑‍💻 About Me
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/refs/heads/main/assets/terminal.svg?v=8" alt="Animated terminal demo" width="600" />
-</div>
-
-<br />
-
-<hr />
-
-## 📦 Deploy Journal
+## Latest releases
 
 <!-- DEPLOY_JOURNAL_START -->
 
@@ -66,65 +37,42 @@
 
 <!-- DEPLOY_JOURNAL_END -->
 
-<br />
+<sub>Updated automatically from my repositories' latest releases.</sub>
 
-<hr />
+## Behind the code
 
-## ⚒️ Tech Stack
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,py,c,java,javascript,php,go,ts,django,svelte,fastapi,nodejs,tailwind" />
-  <br />
-  <img src="https://skillicons.dev/icons?i=vscode,pycharm,androidstudio,arduino,eclipse,idea,figma,git,gitlab,docker,bash,npm,pnpm" />
-  <br />
-  <img src="https://skillicons.dev/icons?i=mysql,redis,sqlite,kali,linux,windows,ubuntu" />
-</div>
+<details>
+<summary>A little more about me</summary>
 
 <br />
 
-<hr />
+<img src="assets/terminal.svg" alt="Animated terminal introducing Lenny, his skills and interests" width="600" />
 
-## 🐍 My Contributions
+</details>
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lenny-ts/lenny-ts/output/github-contribution-grid-snake-dark.svg" />
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/output/github-contribution-grid-snake.svg" />
-  </picture>
-</div>
+<details>
+<summary>GitHub activity &amp; stats</summary>
 
 <br />
 
-<hr />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lenny-ts/lenny-ts/output/github-contribution-grid-snake-dark.svg" />
+  <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/output/github-contribution-grid-snake.svg" />
+</picture>
 
-## ⚡ GitHub Stats
+<p>
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=lenny-ts&amp;theme=transparent&amp;show_icons=true&amp;include_all_commits=true&amp;hide_border=true" alt="Lenny's GitHub statistics" width="460" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs?username=lenny-ts&amp;layout=compact&amp;theme=transparent&amp;hide_border=true" alt="Most used languages across Lenny's public repositories" width="330" />
+</p>
 
-<div align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=lenny-ts&theme=vue-dark&show_icons=true&include_all_commits=true" />
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs?username=lenny-ts&layout=compact&theme=vue-dark" />
-</div>
+</details>
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=lenny-ts&theme=merko" alt="Activity graph" />
-</div>
+## Get in touch
 
-<br />
+Open to collaboration and conversations about useful software.
 
-<hr />
+[Discord](https://discordapp.com/users/1001158048276033536) · [Instagram](https://www.instagram.com/lenny.ts_)
 
-<div align="center">
-  <h2>💖 Support Me</h2>
-  <a href='https://ko-fi.com/profumato' target='_blank'><img height='64' style='border:0px;height:64px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=1794566561' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
-</div>
+---
 
-<div align="center">
-  <h3>📬 Find me here</h3>
-  <a href="https://discordapp.com/users/1001158048276033536" target="_blank">
-    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
-  </a>
-  <a href="https://www.instagram.com/lenny.ts_" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-  </a>
-</div>
-
-<br />
+If you find my projects useful, you can [support my work on Ko-fi](https://ko-fi.com/profumato).
