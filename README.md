@@ -1,6 +1,6 @@
 # Hi, I'm Lenny
 
-<img src="https://github.com/user-attachments/assets/cca5dd5d-bacc-42f2-a236-53ce859186be" align="right" width="42%" alt="An open notebook with the message: keep creating, even if it looks like sh!t." />
+<img src="assets/keep-building.png" align="right" width="42%" alt="Interface sketches on paper with the message: make things. break things. make them better." />
 
 > [!TIP]
 > **Software developer based in Italy.**
