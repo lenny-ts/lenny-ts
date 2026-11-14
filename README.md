@@ -1,29 +1,52 @@
 # Hi, I'm Lenny
 
-**Software developer based in Italy.**
+<img src="https://github.com/user-attachments/assets/cca5dd5d-bacc-42f2-a236-53ce859186be" align="right" width="42%" alt="An open notebook with the message: keep creating, even if it looks like sh!t." />
 
-I build practical tools, from command-line utilities to desktop and web applications.
-My work spans Go, Python and TypeScript, with an interest in automation and developer tooling.
+> [!TIP]
+> **Software developer based in Italy.**
+>
+> I build practical tools, from command-line utilities to desktop and web applications.
+>
+> Mostly working with **Go**, **Python** and **TypeScript**, exploring automation and developer tooling along the way.
 
-[Projects](#selected-projects) · [Tech stack](#tech-stack) · [Latest releases](#latest-releases) · [Get in touch](#get-in-touch)
+[Discord](https://discordapp.com/users/1001158048276033536) · [Instagram](https://www.instagram.com/lenny.ts_)
+
+<br clear="both" />
+
+---
+
+[Projects](#selected-projects) · [Tech stack](#tech-stack) · [Latest releases](#latest-releases) · [About me](#behind-the-code)
 
 ## Selected projects
 
-| Project | Overview | Built with |
-| :--- | :--- | :--- |
-| [**Caddy Analyzer**](https://github.com/lenny-ts/caddy-analyzer) | Zero-dependency Caddy v2 access-log analyzer with a terminal dashboard, traffic statistics and threat inspection. | Go |
-| [**League Profile Tool**](https://github.com/lenny-ts/league_profile_tool) | League of Legends profile customization with real-time LCU sync, custom status management and automatic updates. | TypeScript, React, Tauri v2 |
+> [!NOTE]
+> **Tools I've been building**
+>
+> - [**Caddy Analyzer**](https://github.com/lenny-ts/caddy-analyzer) — Zero-dependency Caddy v2 access-log analyzer with a terminal dashboard, traffic statistics and threat inspection. Built with **Go**.
+> - [**League Profile Tool**](https://github.com/lenny-ts/league_profile_tool) — League of Legends profile customization with real-time LCU sync, custom status management and automatic updates. Built with **TypeScript, React and Tauri v2**.
+>
+> [Browse all my repositories →](https://github.com/lenny-ts?tab=repositories)
 
 **Also worth exploring:** [tdl](https://github.com/iyear/tdl) · [Homebutler](https://github.com/Higangssh/homebutler) · [Vela Chess](https://github.com/velachess/velachess)
 
-[Browse all my repositories →](https://github.com/lenny-ts?tab=repositories)
+---
 
 ## Tech stack
 
-- **Languages:** Go, Python, TypeScript, JavaScript, Java, C, PHP, Bash
-- **Web & APIs:** Svelte, Django, FastAPI, Node.js, Tailwind CSS, HTML, CSS
-- **Data:** PostgreSQL, MySQL, Redis, SQLite
-- **Tools & platforms:** Git, Docker, Linux, npm, pnpm
+> [!IMPORTANT]
+> **Languages**<br />
+> Go, Python, TypeScript, JavaScript, Java, C, PHP, Bash
+>
+> **Web & APIs**<br />
+> Svelte, Django, FastAPI, Node.js, Tailwind CSS, HTML, CSS
+>
+> **Data**<br />
+> PostgreSQL, MySQL, Redis, SQLite
+>
+> **Tools & platforms**<br />
+> Git, Docker, Linux, npm, pnpm
+
+---
 
 ## Latest releases
 
@@ -36,6 +59,8 @@ My work spans Go, Python and TypeScript, with an interest in automation and deve
 | [Spotify-Playlist-Reader](https://github.com/lenny-ts/Spotify-Playlist-Reader/releases/tag/1.3) | 1.3 | 2024-09-24 | `1.3` |
 
 <!-- DEPLOY_JOURNAL_END -->
+
+---
 
 ## Behind the code
 
@@ -74,4 +99,8 @@ Open to collaboration and conversations about useful software.
 
 ---
 
-If you find my projects useful, you can [support my work on Ko-fi](https://ko-fi.com/profumato).
+> [!TIP]
+> **Support independent projects**
+>
+> If my tools have been useful to you, you can [buy me a coffee on Ko-fi](https://ko-fi.com/profumato).
+> Thanks for helping me keep building.
