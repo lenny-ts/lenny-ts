@@ -85,8 +85,8 @@
 </picture>
 
 <p>
-  <img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/feature/readme-refresh/assets/stats/github-stats.svg" alt="Lenny's GitHub statistics" width="460" />
-  <img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/feature/readme-refresh/assets/stats/top-languages.svg" alt="Most used languages across Lenny's public repositories" width="460" />
+  <img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/main/assets/stats/github-stats.svg" alt="Lenny's GitHub statistics" width="460" />
+  <img src="https://raw.githubusercontent.com/lenny-ts/lenny-ts/main/assets/stats/top-languages.svg" alt="Most used languages across Lenny's public repositories" width="460" />
 </p>
 
 </details>
