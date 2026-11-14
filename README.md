@@ -85,8 +85,8 @@
 </picture>
 
 <p>
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=lenny-ts&amp;theme=transparent&amp;show_icons=true&amp;include_all_commits=true&amp;hide_border=true" alt="Lenny's GitHub statistics" width="460" />
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs?username=lenny-ts&amp;layout=compact&amp;theme=transparent&amp;hide_border=true" alt="Most used languages across Lenny's public repositories" width="330" />
+  <img src="assets/stats/github-stats.svg" alt="Lenny's GitHub statistics" width="460" />
+  <img src="assets/stats/top-languages.svg" alt="Most used languages across Lenny's public repositories" width="460" />
 </p>
 
 </details>
