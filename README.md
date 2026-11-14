@@ -1,6 +1,6 @@
 # Hi, I'm Lenny
 
-<img src="assets/keep-building.png" align="right" width="42%" alt="Interface sketches on paper with the message: make things. break things. make them better." />
+<img src="assets/github_notebook_original_photo.png" align="right" width="42%" alt="Interface sketches on paper with the message: make things. break things. make them better." />
 
 > [!TIP]
 > **Software developer based in Italy.**
