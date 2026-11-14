@@ -10,6 +10,7 @@ on:
       - feature/readme-refresh
     paths:
       - .github/scripts/gen_stats.py
+      - .github/scripts/licenses/github-readme-stats.txt
       - .github/workflows/update-stats.yml
 
 permissions:

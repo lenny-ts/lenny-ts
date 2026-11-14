@@ -27,6 +27,72 @@ def api(path):
         return json.load(response)
 
 
+def fetch_activity(username):
+    token = os.environ.get("GITHUB_TOKEN")
+    if not token:
+        raise RuntimeError("GITHUB_TOKEN is required to fetch activity for the rank.")
+    query = """
+        query($login: String!) {
+          user(login: $login) {
+            contributionsCollection {
+              totalCommitContributions
+              totalPullRequestReviewContributions
+            }
+            pullRequests { totalCount }
+            issues { totalCount }
+          }
+        }
+    """
+    request = Request(
+        "https://api.github.com/graphql",
+        data=json.dumps({"query": query, "variables": {"login": username}}).encode(),
+        headers={
+            "Authorization": f"Bearer {token}",
+            "Content-Type": "application/json",
+            "User-Agent": "profile-stats-generator",
+        },
+    )
+    with urlopen(request, timeout=30) as response:
+        result = json.load(response)
+    if result.get("errors"):
+        raise RuntimeError(f"GitHub activity query failed: {result['errors']}")
+    user = result["data"]["user"]
+    return {
+        "commits": user["contributionsCollection"]["totalCommitContributions"],
+        "reviews": user["contributionsCollection"]["totalPullRequestReviewContributions"],
+        "prs": user["pullRequests"]["totalCount"],
+        "issues": user["issues"]["totalCount"],
+    }
+
+
+def calculate_rank(activity, stars, followers):
+    # Port of GitHub Readme Stats' calculateRank.js (include_all_commits=false).
+    # https://github.com/anuraghazra/github-readme-stats/blob/master/src/calculateRank.js
+    # Copyright (c) 2020 Anurag Hazra; MIT license in licenses/github-readme-stats.txt.
+    def exponential_cdf(value):
+        return 1 - 2 ** -value
+
+    def log_normal_cdf(value):
+        return value / (1 + value)
+
+    score = (
+        2 * exponential_cdf(activity["commits"] / 250)
+        + 3 * exponential_cdf(activity["prs"] / 50)
+        + exponential_cdf(activity["issues"] / 25)
+        + exponential_cdf(activity["reviews"] / 2)
+        + 4 * log_normal_cdf(stars / 50)
+        + log_normal_cdf(followers / 10)
+    ) / 12
+    percentile = (1 - score) * 100
+    for threshold, level in zip(
+        [1, 12.5, 25, 37.5, 50, 62.5, 75, 87.5, 100],
+        ["S", "A+", "A", "A-", "B+", "B", "B-", "C+", "C"],
+    ):
+        if percentile <= threshold:
+            return level, percentile
+    raise ValueError("Rank outside the expected range.")
+
+
 def card(title, description, content):
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="460" height="240" viewBox="0 0 460 240" role="img" aria-labelledby="title description">
   <title id="title">{escape(title)}</title>
@@ -53,10 +119,12 @@ def card(title, description, content):
 '''
 
 
-def render_stats(user, repos):
+def render_stats(user, repos, activity):
+    stars = sum(repo["stargazers_count"] for repo in repos)
+    level, percentile = calculate_rank(activity, stars, user["followers"])
     values = [
         ("Public repositories", user["public_repos"]),
-        ("Stars earned", sum(repo["stargazers_count"] for repo in repos)),
+        ("Stars earned", stars),
         ("Repository forks", sum(repo["forks_count"] for repo in repos)),
         ("Followers", user["followers"]),
     ]
@@ -65,14 +133,29 @@ def render_stats(user, repos):
         y = 75 + index * 35
         rows.append(
             f'  <text class="label" x="24" y="{y}" font-size="14">{label}</text>\n'
-            f'  <text class="value" x="432" y="{y}" text-anchor="end" '
+            f'  <text class="value" x="265" y="{y}" text-anchor="end" '
             f'font-size="16" font-weight="600">{value:,}</text>'
         )
     rows.append(
-        '  <text class="label" x="24" y="218" font-size="11">'
+        '  <circle class="track" cx="370" cy="119" r="49" />\n'
+        '  <circle class="background" cx="370" cy="119" r="43" />\n'
+        '  <text class="heading" x="370" y="130" text-anchor="middle" '
+        f'font-size="32" font-weight="700">{level}</text>\n'
+        '  <text class="label" x="370" y="188" text-anchor="middle" '
+        'font-size="12">GitHub rank</text>\n'
+        '  <text class="label" x="24" y="212" font-size="10">'
+        "Rank: GitHub Readme Stats formula; commits/reviews: past year.</text>\n"
+        '  <text class="label" x="24" y="228" font-size="10">'
         "Stars and forks exclude forked repositories.</text>"
     )
     description = ". ".join(f"{label}: {value:,}" for label, value in values)
+    description += (
+        f". Rank: {level} (formula percentile: {percentile:.1f}). "
+        f"Rank inputs: {activity['commits']} commits and {activity['reviews']} reviews "
+        f"in the past year, {activity['prs']} pull requests and "
+        f"{activity['issues']} issues in total. "
+        "An activity indicator, not a code quality assessment."
+    )
     return card("GitHub statistics", description, "\n".join(rows))
 
 
@@ -124,8 +207,9 @@ def main():
     for repo in repos:
         languages.update(api(f"/repos/{repo['full_name']}/languages"))
 
+    activity = fetch_activity(username)
     # Fetch all data before writing either file: API errors leave the old cards intact.
-    stats_svg = render_stats(user, repos)
+    stats_svg = render_stats(user, repos, activity)
     languages_svg = render_languages(languages)
     OUTPUT.mkdir(parents=True, exist_ok=True)
     (OUTPUT / "github-stats.svg").write_text(stats_svg, encoding="utf-8")
