@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="460" height="240" viewBox="0 0 460 240" role="img" aria-labelledby="title description">
   <title id="title">GitHub statistics</title>
-  <desc id="description">Public repositories: 22. Stars earned: 103. Repository forks: 13. Followers: 29. Rank: A (formula percentile: 18.6). Rank inputs: 1285 commits and 4 reviews in the past year, 168 pull requests and 98 issues in total. An activity indicator, not a code quality assessment.</desc>
+  <desc id="description">Public repositories: 22. Stars earned: 103. Repository forks: 13. Followers: 29. Rank: A (formula percentile: 18.5). Rank inputs: 1286 commits and 4 reviews in the past year, 170 pull requests and 98 issues in total. An activity indicator, not a code quality assessment.</desc>
   <style>
     .background { fill: #ffffff; stroke: #d1d9e0; }
     .heading { fill: #8250df; }
